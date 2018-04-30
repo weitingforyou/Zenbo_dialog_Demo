@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Apr 30 19:45:39 CST 2018
+0.baseType=DIRECTORY
+0.base=D\:\\NCCU 106-2\\Meeting\\Zenbo\\Zenbo_dialog\\ZenboSDK_and_SampleCode_v1.0.67.1808\\RobotDevSample\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1
