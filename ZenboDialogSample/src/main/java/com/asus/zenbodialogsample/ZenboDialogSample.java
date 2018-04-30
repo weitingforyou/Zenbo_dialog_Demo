@@ -32,14 +32,14 @@ public class ZenboDialogSample extends RobotActivity {
     protected void onResume() {
         super.onResume();
 
-        // close faical
-        robotAPI.robot.setExpression(RobotFace.HIDEFACE);
+        // set beginning expression : default
+        robotAPI.robot.setExpression(RobotFace.DEFAULT);
 
         // jump dialog domain
         robotAPI.robot.jumpToPlan(DOMAIN, "lanuchHelloWolrd_Plan");
 
         // listen user utterance
-        robotAPI.robot.speakAndListen("Which city do you like?", new SpeakConfig().timeout(20));
+        //robotAPI.robot.speakAndListen("Which city do you like?", new SpeakConfig().timeout(20));
 
         // show hint
         mTextView.setText(getResources().getString(R.string.dialog_example));
