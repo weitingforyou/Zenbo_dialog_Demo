@@ -12,6 +12,7 @@ import com.asus.robotframework.API.RobotUtil;
 import com.asus.robotframework.API.SpeakConfig;
 import com.robot.asus.robotactivity.RobotActivity;
 
+import org.json.JSONException;
 import org.json.JSONObject;
 
 public class ZenboDialogSample extends RobotActivity {
@@ -96,7 +97,7 @@ public class ZenboDialogSample extends RobotActivity {
         public void onEventUserUtterance(JSONObject jsonObject) {
             String text;
             text = "onEventUserUtterance: " + jsonObject.toString();
-            mTextView.setText(text);
+            //mTextView.setText(text);
             Log.d(TAG, text);
         }
 
@@ -111,16 +112,26 @@ public class ZenboDialogSample extends RobotActivity {
             Log.d(TAG, "Intention Id = " + sIntentionID);
 
             if(sIntentionID.equals("ThisPlanLaunchingThisApp")){
-                robotAPI.robot.speak("你好，我是理財助理Juicy！請站在我的前方並看著我的眼睛，讓我認識你。");
+                text = "你好，我是理財助理Juicy！請站在我的前方並看著我的眼睛，讓我認識你。";
+                mTextView.setText(text);
+                //robotAPI.robot.speak(text);
             }
 
             if(sIntentionID.equals("ProvideService")) {
-                String sSluResultCity = RobotUtil.queryListenResultJson(jsonObject, "AcceptReject", null);
-                //mTextView.setText("Result: " + sSluResultCity);
-                Log.d(TAG, "Result City = " + sSluResultCity);
 
-                if(sSluResultCity!= null) {
-                    mTextView.setText("You are now at " + sSluResultCity);
+                String sSluResultCity = RobotUtil.queryListenResultJson(jsonObject, "ans_AcceptReject", null);
+                Log.d(TAG, "Result City =" + sSluResultCity + "end");
+
+                if(sSluResultCity == "reject") {
+                    Log.d(TAG, "你選擇了不好");
+                    mTextView.setText("你選擇了不好");
+                }
+                else if (sSluResultCity=="accept") {
+                    Log.d(TAG, "你選擇了好");
+                    mTextView.setText("你選擇了好");
+                }
+                else{
+                    Log.d(TAG, "failed QQ");
                 }
             }
 

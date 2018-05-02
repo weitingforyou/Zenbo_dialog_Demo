@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RobotAPI</string>
+    <string name="robot_api_level">2</string>
+</resources>
