@@ -17,9 +17,9 @@
         android:theme="@style/RobotDevTheme" >
         <meta-data
             android:name="zenbo_ds_domainuuid"
-            android:value="9EF85697FF064D54B32FF06D21222BA2" />
+            android:value="DD1E4C84279C4598BD71DE6DFD0BA6BB" />
         <meta-data
-            android:name="zenbo_ds_version_9EF85697FF064D54B32FF06D21222BA2"
+            android:name="zenbo_ds_version_DD1E4C84279C4598BD71DE6DFD0BA6BB"
             android:value="0.0.1" />
 
         <activity android:name="com.asus.zenbodialogsample.ZenboDialogSample" >

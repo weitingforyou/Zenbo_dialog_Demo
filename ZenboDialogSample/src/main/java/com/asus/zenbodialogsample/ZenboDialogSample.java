@@ -16,7 +16,7 @@ import org.json.JSONObject;
 
 public class ZenboDialogSample extends RobotActivity {
     public final static String TAG = "ZenboDialogSample";
-    public final static String DOMAIN = "9EF85697FF064D54B32FF06D21222BA2";
+    public final static String DOMAIN = "DD1E4C84279C4598BD71DE6DFD0BA6BB";
 
     private static TextView mTextView;
 
@@ -26,6 +26,7 @@ public class ZenboDialogSample extends RobotActivity {
         setContentView(R.layout.activity_zenbo_dialog_sample);
 
         mTextView = (TextView) findViewById(R.id.textview_info);
+        mTextView.setText(DOMAIN);
     }
 
     @Override
@@ -33,16 +34,16 @@ public class ZenboDialogSample extends RobotActivity {
         super.onResume();
 
         // set beginning expression : default
-        robotAPI.robot.setExpression(RobotFace.DEFAULT);
+        robotAPI.robot.setExpression(RobotFace.HIDEFACE);
 
         // jump dialog domain
-        robotAPI.robot.jumpToPlan(DOMAIN, "lanuchHelloWolrd_Plan");
+        robotAPI.robot.jumpToPlan(DOMAIN, "ThisPlanLaunchingThisApp");
 
         // listen user utterance
-        //robotAPI.robot.speakAndListen("Which city do you like?", new SpeakConfig().timeout(20));
+        robotAPI.robot.speakAndListen("Which city do you like?", new SpeakConfig().timeout(20));
 
         // show hint
-        mTextView.setText(getResources().getString(R.string.dialog_example));
+        //mTextView.setText(getResources().getString(R.string.dialog_example));
 
     }
 
@@ -53,6 +54,7 @@ public class ZenboDialogSample extends RobotActivity {
 
         //stop listen user utterance
         robotAPI.robot.stopSpeakAndListen();
+        //mTextView.setText();
     }
 
 
@@ -94,6 +96,7 @@ public class ZenboDialogSample extends RobotActivity {
         public void onEventUserUtterance(JSONObject jsonObject) {
             String text;
             text = "onEventUserUtterance: " + jsonObject.toString();
+            mTextView.setText(text);
             Log.d(TAG, text);
         }
 
@@ -103,12 +106,17 @@ public class ZenboDialogSample extends RobotActivity {
             text = "onResult: " + jsonObject.toString();
             Log.d(TAG, text);
 
-
             String sIntentionID = RobotUtil.queryListenResultJson(jsonObject, "IntentionId");
+            //mTextView.setText(sIntentionID);
             Log.d(TAG, "Intention Id = " + sIntentionID);
 
-            if(sIntentionID.equals("helloWorld")) {
-                String sSluResultCity = RobotUtil.queryListenResultJson(jsonObject, "myCity1", null);
+            if(sIntentionID.equals("ThisPlanLaunchingThisApp")){
+                robotAPI.robot.speak("你好，我是理財助理Juicy！請站在我的前方並看著我的眼睛，讓我認識你。");
+            }
+
+            if(sIntentionID.equals("ProvideService")) {
+                String sSluResultCity = RobotUtil.queryListenResultJson(jsonObject, "AcceptReject", null);
+                //mTextView.setText("Result: " + sSluResultCity);
                 Log.d(TAG, "Result City = " + sSluResultCity);
 
                 if(sSluResultCity!= null) {

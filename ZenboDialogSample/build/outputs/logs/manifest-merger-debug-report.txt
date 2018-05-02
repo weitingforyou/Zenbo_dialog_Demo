@@ -49,15 +49,15 @@ MERGED from [com.android.support:support-v4:23.4.0] C:\Users\weiting\.gradle\cac
 	android:theme
 		ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:10:9-45
 meta-data#zenbo_ds_domainuuid
-ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:12:9-13:63
+ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:12:9-13:70
 	android:value
-		ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:13:13-61
+		ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:13:20-68
 	android:name
 		ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:12:20-54
-meta-data#zenbo_ds_version_9EF85697FF064D54B32FF06D21222BA2
-ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:15:9-16:36
+meta-data#zenbo_ds_version_DD1E4C84279C4598BD71DE6DFD0BA6BB
+ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:15:9-16:43
 	android:value
-		ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:16:13-34
+		ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:16:20-41
 	android:name
 		ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:15:20-84
 activity#com.asus.zenbodialogsample.ZenboDialogSample

@@ -18,7 +18,7 @@ import org.json.JSONObject;
 public class zenbo_welcome extends RobotActivity {
 
     public final static String TAG = "ZenboDialogSample";
-    public final static String DOMAIN = "9EF85697FF064D54B32FF06D21222BA2";
+    public final static String DOMAIN = "13207(test)";
 
     private static TextView mTextView;
     private String _sentence = "我想為你提出一些理財建議，你願意嗎";

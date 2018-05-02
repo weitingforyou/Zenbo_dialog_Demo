@@ -17,6 +17,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    // add: Prevent errors in "Generate Signed APK"
+    lintOptions {
+        abortOnError false
+    }
 }
 
 dependencies {
