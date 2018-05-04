@@ -610,6 +610,270 @@
       </state>
     </system>
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZenboDialogSample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="119" column="72" lean-forward="false" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#onFinishRegister#0;class#2510:4489" expanded="false" />
+                <element signature="method#onVoiceDetect#0;class#2510:4489" expanded="false" />
+                <element signature="method#onSpeakComplete#0;class#2510:4489" expanded="false" />
+                <element signature="e#4525#4526#0" expanded="true" />
+                <element signature="e#4582#4583#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RobotAPI.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/ZenboSDK/ZenboSDK.jar!/com/asus/robotframework/API/RobotAPI.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1258">
+              <caret line="94" column="37" lean-forward="false" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="37" />
+              <folding>
+                <marker date="1523779335926" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1523779335926" expanded="false" signature="151:514" ph="..." />
+                <marker date="1523779335926" expanded="true" signature="1075:1218" ph="{...}" />
+                <marker date="1523779335926" expanded="false" signature="1264:1275" ph=" { " />
+                <marker date="1523779335926" expanded="false" signature="1297:1303" ph=" }" />
+                <marker date="1523779335926" expanded="true" signature="1367:1498" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="1579:1717" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="1755:1766" ph=" { " />
+                <marker date="1523779335926" expanded="true" signature="1816:1822" ph=" }" />
+                <marker date="1523779335926" expanded="true" signature="1860:1871" ph=" { " />
+                <marker date="1523779335926" expanded="true" signature="1921:1927" ph=" }" />
+                <marker date="1523779335926" expanded="false" signature="1967:1978" ph=" { " />
+                <marker date="1523779335926" expanded="false" signature="2029:2035" ph=" }" />
+                <marker date="1523779335926" expanded="true" signature="2098:2174" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="2237:2313" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="2378:2455" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="2505:3195" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="2555:3187" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="2651:2857" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="2964:3177" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="3269:3955" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="4009:4124" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="4187:4483" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="4511:4947" ph="{...}" />
+                <marker date="1523779335926" expanded="false" signature="4986:4997" ph=" { " />
+                <marker date="1523779335926" expanded="false" signature="5018:5024" ph=" }" />
+                <marker date="1523779335926" expanded="true" signature="5071:5453" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="5491:5788" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="5832:6168" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="6204:6530" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="6581:6916" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="6959:7283" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="7318:7613" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZenboDialogSample/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DialogSystem.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/ZenboSDK/ZenboSDK.jar!/com/asus/robotframework/API/DialogSystem.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+              <folding>
+                <marker date="1523779335926" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1523779335926" expanded="false" signature="151:870" ph="..." />
+                <marker date="1523779335926" expanded="true" signature="1221:1353" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="1480:1899" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="1940:2241" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="2297:2674" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="2751:3169" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="3224:3684" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="3750:4148" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="4268:4656" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="4703:5078" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="5142:5527" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="5616:6040" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="6105:6497" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="6545:6940" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="6995:7405" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="7454:7881" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="7935:8375" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="8415:8776" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="8836:9231" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="9237:9255" ph="/**...*/" />
+                <marker date="1523779335926" expanded="true" signature="9328:9728" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="9797:10220" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="10226:10244" ph="/**...*/" />
+                <marker date="1523779335926" expanded="true" signature="10323:10451" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="10457:10475" ph="/**...*/" />
+                <marker date="1523779335926" expanded="true" signature="10565:10706" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="10735:11010" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="11048:11351" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="11395:11921" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="11974:12404" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="12449:12750" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="12793:13002" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="12907:12918" ph="{}" />
+                <marker date="1523779335926" expanded="false" signature="12952:12967" ph=" { " />
+                <marker date="1523779335926" expanded="false" signature="12986:12996" ph=" }" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RobotIntercom.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/ZenboSDK/ZenboSDK.jar!/com/asus/robotframework/API/RobotIntercom.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="57" column="35" lean-forward="false" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+              <folding>
+                <marker date="1523779335926" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1523779335926" expanded="false" signature="151:2118" ph="..." />
+                <marker date="1523779335926" expanded="true" signature="5291:5880" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="5369:5648" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="5712:5874" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="5958:6537" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="6036:6309" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="6373:6531" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="6612:7176" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="6690:6954" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="7018:7170" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="7253:8010" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="7331:7773" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="7837:8004" ph="{...}" />
+                <marker date="1523779335926" expanded="false" signature="8073:8084" ph=" { " />
+                <marker date="1523779335926" expanded="false" signature="8109:8115" ph=" }" />
+                <marker date="1523779335926" expanded="false" signature="8164:8175" ph=" { " />
+                <marker date="1523779335926" expanded="false" signature="8197:8203" ph=" }" />
+                <marker date="1523779335926" expanded="true" signature="8267:8398" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="8479:8617" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="8723:9323" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="9353:9360" ph="{}" />
+                <marker date="1523779335926" expanded="true" signature="9448:10243" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="10282:10717" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="10754:11179" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="11213:11613" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="11649:12235" ph="{...}" />
+                <marker date="1523779335926" expanded="false" signature="12284:12295" ph=" { " />
+                <marker date="1523779335926" expanded="false" signature="12328:12334" ph=" }" />
+                <marker date="1523779335926" expanded="true" signature="12362:13491" ph="{...}" />
+                <marker date="1523779335926" expanded="false" signature="13524:13535" ph=" { " />
+                <marker date="1523779335926" expanded="false" signature="13557:13563" ph=" }" />
+                <marker date="1523779335926" expanded="false" signature="13616:13627" ph=" { " />
+                <marker date="1523779335926" expanded="false" signature="13653:13659" ph=" }" />
+                <marker date="1523779335926" expanded="false" signature="13699:13710" ph=" { " />
+                <marker date="1523779335926" expanded="false" signature="13732:13738" ph=" }" />
+                <marker date="1523779335926" expanded="false" signature="13793:13804" ph=" { " />
+                <marker date="1523779335926" expanded="false" signature="13828:13834" ph=" }" />
+                <marker date="1523779335926" expanded="false" signature="13876:13887" ph=" { " />
+                <marker date="1523779335926" expanded="false" signature="13907:13913" ph=" }" />
+                <marker date="1523779335926" expanded="true" signature="13982:14044" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="14098:14170" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="14239:14301" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="14355:14427" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="14496:14558" ph="{...}" />
+                <marker date="1523779335926" expanded="false" signature="14619:14630" ph=" { " />
+                <marker date="1523779335926" expanded="false" signature="14666:14672" ph=" }" />
+                <marker date="1523779335926" expanded="true" signature="14741:14794" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="14848:14920" ph="{...}" />
+                <marker date="1523779335926" expanded="false" signature="14968:14979" ph=" { " />
+                <marker date="1523779335926" expanded="false" signature="15011:15017" ph=" }" />
+                <marker date="1523779335926" expanded="true" signature="15065:15628" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="15681:24437" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="24486:32809" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="32865:34502" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="34560:36536" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="36602:36904" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="36999:37719" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="37797:39325" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="39373:39501" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="39549:39683" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="39720:40427" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="40538:41105" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="41183:42131" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="42207:42947" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="43020:43754" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="43806:44174" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="44232:45516" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="45572:46645" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="46698:47752" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="47791:48356" ph="{...}" />
+                <marker date="1523779335926" expanded="false" signature="48392:48403" ph=" { " />
+                <marker date="1523779335926" expanded="false" signature="48424:48430" ph=" }" />
+                <marker date="1523779335926" expanded="false" signature="48488:48499" ph=" { " />
+                <marker date="1523779335926" expanded="false" signature="48528:48534" ph=" }" />
+                <marker date="1523779335926" expanded="true" signature="48577:48662" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="48715:48829" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="48882:48971" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="49028:49147" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="49192:49445" ph="{...}" />
+                <marker date="1523779335926" expanded="false" signature="49481:49492" ph=" { " />
+                <marker date="1523779335926" expanded="false" signature="49517:49523" ph=" }" />
+                <marker date="1523779335926" expanded="true" signature="49560:49848" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="49892:50308" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="50378:50450" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="50519:50579" ph="{...}" />
+                <marker date="1523779335926" expanded="false" signature="50634:50645" ph=" { " />
+                <marker date="1523779335926" expanded="false" signature="50683:50689" ph=" }" />
+                <marker date="1523779335926" expanded="true" signature="50757:50819" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="50879:50939" ph="{...}" />
+                <marker date="1523779335926" expanded="false" signature="50985:50996" ph=" { " />
+                <marker date="1523779335926" expanded="false" signature="51034:51040" ph=" }" />
+                <marker date="1523779335926" expanded="true" signature="51099:51161" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="51234:51296" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="51356:51412" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="51484:51548" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="51612:51674" ph="{...}" />
+                <marker date="1523779335926" expanded="false" signature="51724:51735" ph=" { " />
+                <marker date="1523779335926" expanded="false" signature="51775:51781" ph=" }" />
+                <marker date="1523779335926" expanded="true" signature="51844:51908" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="51963:54701" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="52071:52140" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="52168:54695" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="54759:57531" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="54870:54939" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="54967:57525" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="57591:60413" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="57704:57773" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="57801:60407" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="60450:60562" ph="{...}" />
+                <marker date="1523779335926" expanded="true" signature="60545:60556" ph="{}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="changePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/changePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -4756,10 +5020,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -4786,6 +5049,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -5020,34 +5284,34 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7413509" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7413509" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -5068,11 +5332,643 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/RobotActivityLibrary/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboSDK/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#onFinishRegister#0;class#2510:4489" expanded="false" />
+            <element signature="method#onVoiceDetect#0;class#2510:4489" expanded="false" />
+            <element signature="method#onSpeakComplete#0;class#2510:4489" expanded="false" />
+            <element signature="e#4525#4526#0" expanded="true" />
+            <element signature="e#4582#4583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RobotDevSample/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RobotActivityLibrary/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboSDK/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#onFinishRegister#0;class#2510:4489" expanded="false" />
+            <element signature="method#onVoiceDetect#0;class#2510:4489" expanded="false" />
+            <element signature="method#onSpeakComplete#0;class#2510:4489" expanded="false" />
+            <element signature="e#4525#4526#0" expanded="true" />
+            <element signature="e#4582#4583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RobotDevSample/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RobotActivityLibrary/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboSDK/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#onFinishRegister#0;class#2510:4489" expanded="false" />
+            <element signature="method#onVoiceDetect#0;class#2510:4489" expanded="false" />
+            <element signature="method#onSpeakComplete#0;class#2510:4489" expanded="false" />
+            <element signature="e#4525#4526#0" expanded="true" />
+            <element signature="e#4582#4583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RobotDevSample/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RobotActivityLibrary/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboSDK/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#onFinishRegister#0;class#2510:4489" expanded="false" />
+            <element signature="method#onVoiceDetect#0;class#2510:4489" expanded="false" />
+            <element signature="method#onSpeakComplete#0;class#2510:4489" expanded="false" />
+            <element signature="e#4525#4526#0" expanded="true" />
+            <element signature="e#4582#4583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RobotDevSample/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RobotActivityLibrary/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboSDK/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#onFinishRegister#0;class#2510:4489" expanded="false" />
+            <element signature="method#onVoiceDetect#0;class#2510:4489" expanded="false" />
+            <element signature="method#onSpeakComplete#0;class#2510:4489" expanded="false" />
+            <element signature="e#4525#4526#0" expanded="true" />
+            <element signature="e#4582#4583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2023">
+          <caret line="119" column="46" lean-forward="true" selection-start-line="119" selection-start-column="46" selection-end-line="119" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#onFinishRegister#0;class#2510:4489" expanded="false" />
+            <element signature="method#onVoiceDetect#0;class#2510:4489" expanded="false" />
+            <element signature="method#onSpeakComplete#0;class#2510:4489" expanded="false" />
+            <element signature="e#4525#4526#0" expanded="true" />
+            <element signature="e#4582#4583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1938">
+          <caret line="114" column="13" lean-forward="true" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#onFinishRegister#0;class#2510:4489" expanded="false" />
+            <element signature="method#onVoiceDetect#0;class#2510:4489" expanded="false" />
+            <element signature="method#onSpeakComplete#0;class#2510:4489" expanded="false" />
+            <element signature="e#4525#4526#0" expanded="true" />
+            <element signature="e#4582#4583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/ZenboSDK/ZenboSDK.jar!/com/asus/robotframework/API/RobotUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="54" column="46" lean-forward="false" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="46" />
+          <folding>
+            <marker date="1523779335926" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1523779335926" expanded="false" signature="151:396" ph="..." />
+            <marker date="1523779335926" expanded="true" signature="446:453" ph="{}" />
+            <marker date="1523779335926" expanded="true" signature="548:1521" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="1602:1665" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="1763:2167" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="2277:3452" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="3560:4188" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="4256:4684" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="4744:5033" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="5102:5531" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="5593:5886" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="5954:6136" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="6047:6130" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="6202:6380" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="6295:6374" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="6442:6606" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="6529:6600" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="6641:6708" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="6691:6702" ph="{}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/zenbo_welcome.java" />
+    <entry file="file://$PROJECT_DIR$/ZenboSDK/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RobotActivityLibrary/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RobotDevSample/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_welcome.xml" />
+    <entry file="jar://$PROJECT_DIR$/ZenboSDK/ZenboSDK.jar!/com/asus/robotframework/API/RobotCallback.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="100" column="38" lean-forward="false" selection-start-line="100" selection-start-column="38" selection-end-line="100" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-23/android/widget/TextView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="4172" column="22" lean-forward="false" selection-start-line="4172" selection-start-column="22" selection-end-line="4172" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RobotActivityLibrary/src/main/java/com/robot/asus/robotactivity/RobotActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboProvideService.java" />
+    <entry file="jar://$PROJECT_DIR$/ZenboSDK/ZenboSDK.jar!/com/asus/robotframework/API/DialogSystem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+          <folding>
+            <marker date="1523779335926" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1523779335926" expanded="false" signature="151:870" ph="..." />
+            <marker date="1523779335926" expanded="true" signature="1221:1353" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="1480:1899" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="1940:2241" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="2297:2674" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="2751:3169" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="3224:3684" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="3750:4148" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="4268:4656" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="4703:5078" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="5142:5527" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="5616:6040" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="6105:6497" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="6545:6940" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="6995:7405" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="7454:7881" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="7935:8375" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="8415:8776" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="8836:9231" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="9237:9255" ph="/**...*/" />
+            <marker date="1523779335926" expanded="true" signature="9328:9728" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="9797:10220" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="10226:10244" ph="/**...*/" />
+            <marker date="1523779335926" expanded="true" signature="10323:10451" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="10457:10475" ph="/**...*/" />
+            <marker date="1523779335926" expanded="true" signature="10565:10706" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="10735:11010" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="11048:11351" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="11395:11921" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="11974:12404" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="12449:12750" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="12793:13002" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="12907:12918" ph="{}" />
+            <marker date="1523779335926" expanded="false" signature="12952:12967" ph=" { " />
+            <marker date="1523779335926" expanded="false" signature="12986:12996" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSystem.java" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/ZenboSDK/ZenboSDK.jar!/com/asus/robotframework/API/RobotIntercom.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="57" column="35" lean-forward="false" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+          <folding>
+            <marker date="1523779335926" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1523779335926" expanded="false" signature="151:2118" ph="..." />
+            <marker date="1523779335926" expanded="true" signature="5291:5880" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="5369:5648" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="5712:5874" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="5958:6537" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="6036:6309" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="6373:6531" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="6612:7176" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="6690:6954" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="7018:7170" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="7253:8010" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="7331:7773" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="7837:8004" ph="{...}" />
+            <marker date="1523779335926" expanded="false" signature="8073:8084" ph=" { " />
+            <marker date="1523779335926" expanded="false" signature="8109:8115" ph=" }" />
+            <marker date="1523779335926" expanded="false" signature="8164:8175" ph=" { " />
+            <marker date="1523779335926" expanded="false" signature="8197:8203" ph=" }" />
+            <marker date="1523779335926" expanded="true" signature="8267:8398" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="8479:8617" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="8723:9323" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="9353:9360" ph="{}" />
+            <marker date="1523779335926" expanded="true" signature="9448:10243" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="10282:10717" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="10754:11179" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="11213:11613" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="11649:12235" ph="{...}" />
+            <marker date="1523779335926" expanded="false" signature="12284:12295" ph=" { " />
+            <marker date="1523779335926" expanded="false" signature="12328:12334" ph=" }" />
+            <marker date="1523779335926" expanded="true" signature="12362:13491" ph="{...}" />
+            <marker date="1523779335926" expanded="false" signature="13524:13535" ph=" { " />
+            <marker date="1523779335926" expanded="false" signature="13557:13563" ph=" }" />
+            <marker date="1523779335926" expanded="false" signature="13616:13627" ph=" { " />
+            <marker date="1523779335926" expanded="false" signature="13653:13659" ph=" }" />
+            <marker date="1523779335926" expanded="false" signature="13699:13710" ph=" { " />
+            <marker date="1523779335926" expanded="false" signature="13732:13738" ph=" }" />
+            <marker date="1523779335926" expanded="false" signature="13793:13804" ph=" { " />
+            <marker date="1523779335926" expanded="false" signature="13828:13834" ph=" }" />
+            <marker date="1523779335926" expanded="false" signature="13876:13887" ph=" { " />
+            <marker date="1523779335926" expanded="false" signature="13907:13913" ph=" }" />
+            <marker date="1523779335926" expanded="true" signature="13982:14044" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="14098:14170" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="14239:14301" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="14355:14427" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="14496:14558" ph="{...}" />
+            <marker date="1523779335926" expanded="false" signature="14619:14630" ph=" { " />
+            <marker date="1523779335926" expanded="false" signature="14666:14672" ph=" }" />
+            <marker date="1523779335926" expanded="true" signature="14741:14794" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="14848:14920" ph="{...}" />
+            <marker date="1523779335926" expanded="false" signature="14968:14979" ph=" { " />
+            <marker date="1523779335926" expanded="false" signature="15011:15017" ph=" }" />
+            <marker date="1523779335926" expanded="true" signature="15065:15628" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="15681:24437" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="24486:32809" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="32865:34502" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="34560:36536" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="36602:36904" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="36999:37719" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="37797:39325" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="39373:39501" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="39549:39683" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="39720:40427" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="40538:41105" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="41183:42131" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="42207:42947" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="43020:43754" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="43806:44174" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="44232:45516" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="45572:46645" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="46698:47752" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="47791:48356" ph="{...}" />
+            <marker date="1523779335926" expanded="false" signature="48392:48403" ph=" { " />
+            <marker date="1523779335926" expanded="false" signature="48424:48430" ph=" }" />
+            <marker date="1523779335926" expanded="false" signature="48488:48499" ph=" { " />
+            <marker date="1523779335926" expanded="false" signature="48528:48534" ph=" }" />
+            <marker date="1523779335926" expanded="true" signature="48577:48662" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="48715:48829" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="48882:48971" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="49028:49147" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="49192:49445" ph="{...}" />
+            <marker date="1523779335926" expanded="false" signature="49481:49492" ph=" { " />
+            <marker date="1523779335926" expanded="false" signature="49517:49523" ph=" }" />
+            <marker date="1523779335926" expanded="true" signature="49560:49848" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="49892:50308" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="50378:50450" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="50519:50579" ph="{...}" />
+            <marker date="1523779335926" expanded="false" signature="50634:50645" ph=" { " />
+            <marker date="1523779335926" expanded="false" signature="50683:50689" ph=" }" />
+            <marker date="1523779335926" expanded="true" signature="50757:50819" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="50879:50939" ph="{...}" />
+            <marker date="1523779335926" expanded="false" signature="50985:50996" ph=" { " />
+            <marker date="1523779335926" expanded="false" signature="51034:51040" ph=" }" />
+            <marker date="1523779335926" expanded="true" signature="51099:51161" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="51234:51296" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="51356:51412" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="51484:51548" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="51612:51674" ph="{...}" />
+            <marker date="1523779335926" expanded="false" signature="51724:51735" ph=" { " />
+            <marker date="1523779335926" expanded="false" signature="51775:51781" ph=" }" />
+            <marker date="1523779335926" expanded="true" signature="51844:51908" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="51963:54701" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="52071:52140" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="52168:54695" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="54759:57531" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="54870:54939" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="54967:57525" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="57591:60413" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="57704:57773" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="57801:60407" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="60450:60562" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="60545:60556" ph="{}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/changePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/ZenboSDK/ZenboSDK.jar!/com/asus/robotframework/API/RobotAPI.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="94" column="37" lean-forward="false" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="37" />
+          <folding>
+            <marker date="1523779335926" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1523779335926" expanded="false" signature="151:514" ph="..." />
+            <marker date="1523779335926" expanded="true" signature="1075:1218" ph="{...}" />
+            <marker date="1523779335926" expanded="false" signature="1264:1275" ph=" { " />
+            <marker date="1523779335926" expanded="false" signature="1297:1303" ph=" }" />
+            <marker date="1523779335926" expanded="true" signature="1367:1498" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="1579:1717" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="1755:1766" ph=" { " />
+            <marker date="1523779335926" expanded="true" signature="1816:1822" ph=" }" />
+            <marker date="1523779335926" expanded="true" signature="1860:1871" ph=" { " />
+            <marker date="1523779335926" expanded="true" signature="1921:1927" ph=" }" />
+            <marker date="1523779335926" expanded="false" signature="1967:1978" ph=" { " />
+            <marker date="1523779335926" expanded="false" signature="2029:2035" ph=" }" />
+            <marker date="1523779335926" expanded="true" signature="2098:2174" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="2237:2313" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="2378:2455" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="2505:3195" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="2555:3187" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="2651:2857" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="2964:3177" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="3269:3955" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="4009:4124" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="4187:4483" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="4511:4947" ph="{...}" />
+            <marker date="1523779335926" expanded="false" signature="4986:4997" ph=" { " />
+            <marker date="1523779335926" expanded="false" signature="5018:5024" ph=" }" />
+            <marker date="1523779335926" expanded="true" signature="5071:5453" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="5491:5788" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="5832:6168" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="6204:6530" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="6581:6916" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="6959:7283" ph="{...}" />
+            <marker date="1523779335926" expanded="true" signature="7318:7613" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="119" column="72" lean-forward="false" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#onFinishRegister#0;class#2510:4489" expanded="false" />
+            <element signature="method#onVoiceDetect#0;class#2510:4489" expanded="false" />
+            <element signature="method#onSpeakComplete#0;class#2510:4489" expanded="false" />
+            <element signature="e#4525#4526#0" expanded="true" />
+            <element signature="e#4582#4583#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
