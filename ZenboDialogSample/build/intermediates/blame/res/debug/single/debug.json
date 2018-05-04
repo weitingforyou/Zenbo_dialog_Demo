@@ -592,10 +592,6 @@
         "source": "C:\\Users\\weiting\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\005061a7dfd4e25f08105bbd768e001e\\res\\drawable-xxhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\NCCU 106-2\\Meeting\\Zenbo\\Zenbo_dialog\\ZenboSDK_and_SampleCode_v1.0.67.1808\\ZenboDialogSample\\build\\intermediates\\res\\merged\\debug\\layout_activity_zenbo_welcome.xml.flat",
-        "source": "D:\\NCCU 106-2\\Meeting\\Zenbo\\Zenbo_dialog\\ZenboSDK_and_SampleCode_v1.0.67.1808\\ZenboDialogSample\\src\\main\\res\\layout\\activity_zenbo_welcome.xml"
-    },
-    {
         "merged": "D:\\NCCU 106-2\\Meeting\\Zenbo\\Zenbo_dialog\\ZenboSDK_and_SampleCode_v1.0.67.1808\\ZenboDialogSample\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_radio.xml.flat",
         "source": "C:\\Users\\weiting\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\005061a7dfd4e25f08105bbd768e001e\\res\\layout\\abc_list_menu_item_radio.xml"
     },

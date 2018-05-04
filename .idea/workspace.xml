@@ -6,12 +6,12 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="Result City =" />
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="280c67d5-9331-4513-9cdb-46f892f55998" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/changePage.java" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
@@ -21,17 +21,575 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/RobotActivityLibrary/RobotActivityLibrary.iml" afterPath="$PROJECT_DIR$/RobotActivityLibrary/RobotActivityLibrary.iml" />
       <change beforePath="$PROJECT_DIR$/RobotActivityLibrary/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/RobotActivityLibrary/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
+      <change beforePath="$PROJECT_DIR$/RobotDevSample/RobotDevSample.iml" afterPath="$PROJECT_DIR$/RobotDevSample/RobotDevSample.iml" />
       <change beforePath="$PROJECT_DIR$/RobotDevSample/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/RobotDevSample/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/ZenboDialogSample.iml" afterPath="$PROJECT_DIR$/ZenboDialogSample/ZenboDialogSample.iml" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/generated/source/r/debug/com/asus/zenbodialogsample/R.java" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/generated/source/r/debug/com/asus/zenbodialogsample/R.java" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/blame/res/debug/single/debug.json" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/build-info/debug/build-info.xml" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/build-info/debug/build-info.xml" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/R$id.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/R$integer.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/R$integer.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/R$layout.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/R$layout.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/R$mipmap.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/R$mipmap.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/R$string.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/R$string.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/R$style.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/R$style.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/R$styleable.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/R$styleable.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboDialogSample$1.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboDialogSample$1.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboDialogSample$2.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboDialogSample$2.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboDialogSample.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboDialogSample.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/zenbo_welcome$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/zenbo_welcome$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/zenbo_welcome.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$layout.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/R$id.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/R$integer.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/R$integer.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/R$layout.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/R$layout.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/R$mipmap.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/R$mipmap.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/R$string.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/R$string.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/R$style.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/R$style.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/R$styleable.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/R$styleable.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboDialogSample$1.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboDialogSample$1.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboDialogSample$2.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboDialogSample$2.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboDialogSample.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboDialogSample.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/zenbo_welcome$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/zenbo_welcome$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/zenbo_welcome.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_dep/debug/package_dependencies/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_dep/debug/package_dependencies/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_1/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_1/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_3/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_3/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_4/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_4/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_6/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_6/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_7/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_7/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_8/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_8/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/bSKfs138IOLSYjcOXnLXaCi8lBs=" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/bSKfs138IOLSYjcOXnLXaCi8lBs=" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/vqkZMX02TcE7MWnajpp7p0X9Vbs=" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/vqkZMX02TcE7MWnajpp7p0X9Vbs=" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/packageInstantRunResourcesDebug/tmp/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/packageInstantRunResourcesDebug/tmp/debug/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/packageInstantRunResourcesDebug/tmp/debug/zip-cache/vqkZMX02TcE7MWnajpp7p0X9Vbs=" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/packageInstantRunResourcesDebug/tmp/debug/zip-cache/vqkZMX02TcE7MWnajpp7p0X9Vbs=" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/instant-run-apk/debug/ZenboDialogSample-debug.apk" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/instant-run-apk/debug/ZenboDialogSample-debug.apk" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/debug/resources-debug.ap_" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/merged/debug/layout_activity_zenbo_welcome.xml.flat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/dep/dependencies.apk" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/dep/dependencies.apk" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_0.apk" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_0.apk" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_1.apk" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_1.apk" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_2.apk" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_2.apk" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_3.apk" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_3.apk" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_4.apk" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_4.apk" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_5.apk" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_5.apk" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_6.apk" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_6.apk" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_7.apk" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_7.apk" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_9.apk" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_9.apk" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/symbols/debug/R.txt" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/12/com/android/tools/ir/dummy/slice_0.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/13/com/android/tools/ir/dummy/slice_1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/14/android/support/v4/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/14/android/support/v7/appcompat/R$anim.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/14/android/support/v7/appcompat/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/14/android/support/v7/appcompat/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/14/android/support/v7/appcompat/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/14/android/support/v7/appcompat/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/14/android/support/v7/appcompat/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/14/android/support/v7/appcompat/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/14/android/support/v7/appcompat/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/14/android/support/v7/appcompat/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/14/android/support/v7/appcompat/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/14/android/support/v7/appcompat/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/14/android/support/v7/appcompat/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/14/android/support/v7/appcompat/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/14/com/android/tools/ir/dummy/slice_2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/15/android/support/graphics/drawable/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/15/com/android/tools/ir/dummy/slice_3.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/15/com/asus/zenbodialogsample/BuildConfig.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/15/com/asus/zenbodialogsample/R$anim.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/15/com/asus/zenbodialogsample/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/15/com/asus/zenbodialogsample/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/15/com/asus/zenbodialogsample/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/15/com/asus/zenbodialogsample/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/15/com/asus/zenbodialogsample/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/15/com/asus/zenbodialogsample/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/15/com/asus/zenbodialogsample/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/15/com/asus/zenbodialogsample/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/15/com/asus/zenbodialogsample/R$mipmap.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/15/com/asus/zenbodialogsample/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/15/com/asus/zenbodialogsample/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/15/com/asus/zenbodialogsample/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/15/com/asus/zenbodialogsample/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/15/com/asus/zenbodialogsample/ZenboDialogSample$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/15/com/asus/zenbodialogsample/ZenboDialogSample$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/15/com/asus/zenbodialogsample/ZenboDialogSample.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/15/com/asus/zenbodialogsample/zenbo_welcome$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/15/com/asus/zenbodialogsample/zenbo_welcome$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/15/com/asus/zenbodialogsample/zenbo_welcome.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/15/com/google/gson/annotations/Expose.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/15/com/google/gson/annotations/JsonAdapter.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/15/com/google/gson/annotations/SerializedName.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/15/com/google/gson/annotations/Since.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/15/com/google/gson/annotations/Until.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/16/com/android/tools/ir/dummy/slice_4.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/android/tools/ir/dummy/slice_5.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/ctc/tool/DSAPI_Config$CSR_Config.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/ctc/tool/DSAPI_Config$SLU_Config.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/ctc/tool/DSAPI_Config$TTS_Config.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/ctc/tool/DSAPI_Config.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/ctc/tool/DSAPI_Result$EVENT_SLU_QUERY.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/ctc/tool/DSAPI_Result$EVENT_USER_UTTERANCE.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/ctc/tool/DSAPI_Result$EVENT_VAD_STATUS.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/ctc/tool/DSAPI_Result$SYSTEM_INFO.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/ctc/tool/DSAPI_Result.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/ctc/tool/PackageCodec.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/ctc/tool/PerceptionConstantValue.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/CallbackAction.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/DialogSystem$DynamicEditAction.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/DialogSystem.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/ExpressionConfig.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/ForegroundCheck$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/ForegroundCheck$AppStatus.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/ForegroundCheck$ForegroundCheckRobotCallback.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/ForegroundCheck$ForegroundWatchDog.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/ForegroundCheck$MyActivityLifecycleCallbacks$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/ForegroundCheck$MyActivityLifecycleCallbacks.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/ForegroundCheck.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/GotoCallbackHelper$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/GotoCallbackHelper$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/GotoCallbackHelper$Columns.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/GotoCallbackHelper.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/MotionControl$AdjustmentDirection.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/MotionControl$Direction$Body.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/MotionControl$Direction$Head.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/MotionControl$Direction.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/MotionControl$SpeedLevel$Body.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/MotionControl$SpeedLevel$Head.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/MotionControl$SpeedLevel.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/MotionControl.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/PlayEmotionalActionHandler$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/PlayEmotionalActionHandler$PlayEmotionalActionCallbackItem.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/PlayEmotionalActionHandler.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotAPI$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotAPI.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotCallback$CallBackMessage$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotCallback$CallBackMessage.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotCallback$CsrListener.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotCallback$Listen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotCallback$SluListener.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotCallback$SpeakerIdListener.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotCallback$TtsListener.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotCallback.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotCmdState.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotCommand.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotContacts$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotContacts$AccessFamilyData.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotContacts$AccessRelationshipData.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotContacts$AccessRobotData.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotContacts$AccessRoomData.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotContacts.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotEmotion.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotErrorCode.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotFace.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotIntercom$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotIntercom$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotIntercom$3.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotIntercom$4.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotIntercom$5.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotIntercom$CommanderRunnable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotIntercom$CoordinatorRunnable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotIntercom$Destination.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotIntercom$VisionRunnable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotIntercom.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$AbnormalEvent.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$AbsMoveTo.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$AppExecution.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$AppInfo.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$AudioEchoCancellation.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$BooleanSetting.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$BumpingHandler.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$CameraPosition.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$Cancel.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$CheckPathExistence.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$ComeHere.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$Common$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$Common.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$CommonV2$CommonV2Key.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$CommonV2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$CompassCalibration.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$CoordinatorIgnoreIdle.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$CoordinatorIgnorePreempted.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$DialogAppContext.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$DialogSentence.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$DsConfigAutoTriggerCsrSlu.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$DsSetTriggerWord.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$DsStart.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$DsTDJsonCMD.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$DsVoiceTrigger.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$DynamicEditInstance.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$ExecuteAppByPFP.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$ExpressionServiceLoading.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$FacialModel.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$FindPerson.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$FollowUser.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$GoFromAToB.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$GoToSomeWhere.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$IntegerSetting.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$Localization.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$LockNavigationBar.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$MoveAdjustment.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$MoveHead.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$MultiSegments.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$PartyMode.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$Patrol.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$RelMoveTo.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$RelMoveToCylindrical.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$ReleaseBase.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$RemoteControl.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$RequestCameraPreview.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$RequestDetectFace.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$RequestDetectPerson.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$RequestEnrollFace.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$RequestRecognizePerson.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$RequestTrackPerson.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$ReservedTaskExecution.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$ResetMotionOdometry.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$ReturnBase.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$SetAntiDropping.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$SetAvoidanceMode.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$SetBaseVelocity.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$SetConfig.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$SetExpression.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$SetScreenBlueLightMode.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$SetValue.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$SetVolume.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$SpecificAction.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$SystemLoadingDisplay.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$TTSSetPitch.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$TTSSetReadMode.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$TTSSetSpeakerID.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$TTSSetSpeed.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$TTSSetVolume.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$TTSSetWaitFactor.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$TrackUser.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$UpdateHardDeadlineNotify.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$VisionConfig.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$WheelLedSetBright.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$WheelLedSetColor.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$WheelLedStartPattern.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$WheelLedStopPattern.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage$setMotorBridge.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotMessage.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotReservedEventType.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotTimelineParameter$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotTimelineParameter.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotUtil$dialogueItem.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotUtil$faceItem.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotUtil$playActionItem.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotUtil$rateItem.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/RobotUtil.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/Seed.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/Slam.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/SpeakConfig.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/Utility$BlueLightMode.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/Utility$CapEventType.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/Utility$PlayAction.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/Utility$SensorType.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/Utility.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/VisionConfig$FaceDetectConfig.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/VisionConfig$FaceEnrollConfig.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/VisionConfig$PersonDetectConfig.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/VisionConfig$PersonRecognizeConfig.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/VisionConfig.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/VisionControl$Config.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/VisionControl.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/WheelLights$Direction.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/WheelLights$Lights.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/WheelLights$Pattern.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/API/WheelLights.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/robotcontactsservice/FamilyDataFields$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/robotcontactsservice/FamilyDataFields.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/robotcontactsservice/IRemoteAIDLCallback$Stub$Proxy.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/robotcontactsservice/IRemoteAIDLCallback$Stub.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/robotcontactsservice/IRemoteAIDLCallback.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/robotcontactsservice/IRobotContactsService$Stub$Proxy.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/robotcontactsservice/IRobotContactsService$Stub.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/17/com/asus/robotframework/robotcontactsservice/IRobotContactsService.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/android/tools/ir/dummy/slice_6.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/$Gson$Preconditions.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/$Gson$Types$GenericArrayTypeImpl.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/$Gson$Types$ParameterizedTypeImpl.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/$Gson$Types$WildcardTypeImpl.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/$Gson$Types.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/ConstructorConstructor$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/ConstructorConstructor$10.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/ConstructorConstructor$11.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/ConstructorConstructor$12.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/ConstructorConstructor$13.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/ConstructorConstructor$14.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/ConstructorConstructor$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/ConstructorConstructor$3.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/ConstructorConstructor$4.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/ConstructorConstructor$5.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/ConstructorConstructor$6.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/ConstructorConstructor$7.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/ConstructorConstructor$8.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/ConstructorConstructor$9.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/ConstructorConstructor.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/Excluder$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/Excluder.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/JsonReaderInternalAccess.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/LazilyParsedNumber.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/LinkedHashTreeMap$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/LinkedHashTreeMap$AvlBuilder.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/LinkedHashTreeMap$AvlIterator.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/LinkedHashTreeMap$EntrySet$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/LinkedHashTreeMap$EntrySet.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/LinkedHashTreeMap$KeySet$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/LinkedHashTreeMap$KeySet.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/LinkedHashTreeMap$LinkedTreeMapIterator.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/LinkedHashTreeMap$Node.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/LinkedHashTreeMap.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/LinkedTreeMap$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/LinkedTreeMap$EntrySet$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/LinkedTreeMap$EntrySet.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/LinkedTreeMap$KeySet$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/LinkedTreeMap$KeySet.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/LinkedTreeMap$LinkedTreeMapIterator.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/LinkedTreeMap$Node.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/LinkedTreeMap.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/ObjectConstructor.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/Primitives.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/Streams$AppendableWriter$CurrentWrite.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/Streams$AppendableWriter.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/Streams.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/UnsafeAllocator$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/UnsafeAllocator$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/UnsafeAllocator$3.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/UnsafeAllocator$4.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/google/gson/internal/UnsafeAllocator.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/robot/asus/robotactivity/BuildConfig.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/robot/asus/robotactivity/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/robot/asus/robotactivity/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/18/com/robot/asus/robotactivity/RobotActivity.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/android/tools/ir/dummy/slice_7.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/BBox3D$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/BBox3D.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/ConsumerIrLearnResult.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/DetectFaceResult$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/DetectFaceResult.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/DetectPersonResult$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/DetectPersonResult.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/FaceResult$FaceResultKey.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/FaceResult.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/FamilyInfo.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/GesturePointResult$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/GesturePointResult.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/HeadGazeDirection.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/Location$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/Location$Coordinate$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/Location$Coordinate.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/Location.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/ObjectInfo.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/PathPlanningResult$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/PathPlanningResult.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/PersonOrientation.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/PersonPostureState.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/PointF3D$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/PointF3D.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/RecognizePersonResult$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/RecognizePersonResult.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/Rectangle2D$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/Rectangle2D.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/RobotFieldRange.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/RoomInfo.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/TrackingResult$TrackResultKey.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/asus/robotframework/API/results/TrackingResult.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/DefaultDateTypeAdapter.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/ExclusionStrategy.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/FieldAttributes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/FieldNamingPolicy$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/FieldNamingPolicy$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/FieldNamingPolicy$3.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/FieldNamingPolicy$4.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/FieldNamingPolicy$5.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/FieldNamingPolicy.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/FieldNamingStrategy.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/Gson$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/Gson$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/Gson$3.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/Gson$4.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/Gson$5.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/Gson$6.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/Gson$7.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/Gson$FutureTypeAdapter.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/Gson.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/GsonBuilder.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/InstanceCreator.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/JsonArray.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/JsonDeserializationContext.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/JsonDeserializer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/JsonElement.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/JsonIOException.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/JsonNull.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/JsonObject.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/JsonParseException.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/JsonParser.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/JsonPrimitive.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/JsonSerializationContext.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/JsonSerializer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/JsonStreamParser.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/JsonSyntaxException.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/LongSerializationPolicy$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/LongSerializationPolicy$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/LongSerializationPolicy.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/TreeTypeAdapter$SingleTypeFactory.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/TreeTypeAdapter.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/TypeAdapter$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/TypeAdapter.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/TypeAdapterFactory.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/ArrayTypeAdapter$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/ArrayTypeAdapter.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/CollectionTypeAdapterFactory$Adapter.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/CollectionTypeAdapterFactory.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/DateTypeAdapter$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/DateTypeAdapter.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/JsonAdapterAnnotationTypeAdapterFactory.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/JsonTreeReader$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/JsonTreeReader.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/JsonTreeWriter$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/JsonTreeWriter.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/MapTypeAdapterFactory$Adapter.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/MapTypeAdapterFactory.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/ObjectTypeAdapter$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/ObjectTypeAdapter$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/ObjectTypeAdapter.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory$Adapter.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory$BoundField.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/SqlDateTypeAdapter$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/SqlDateTypeAdapter.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TimeTypeAdapter$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TimeTypeAdapter.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapterRuntimeTypeWrapper.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$10.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$11.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$12.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$13.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$14.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$15.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$16.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$17.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$18.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$19.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$20.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$21.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$22.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$23.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$24.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$25.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$26$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$26.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$27.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$28.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$29.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$3.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$30.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$31.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$32.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$33.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$34.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$35$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$35.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$36.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$4.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$5.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$6.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$7.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$8.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$9.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters$EnumTypeAdapter.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/TypeAdapters.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/19/com/google/gson/internal/bind/util/ISO8601Utils.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/20/android/support/graphics/drawable/animated/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/20/com/android/tools/ir/dummy/slice_8.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/20/com/google/gson/reflect/TypeToken.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/21/com/android/tools/ir/dummy/slice_9.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/21/com/asus/robotframework/RobotAPI/BuildConfig.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/21/com/google/gson/stream/JsonReader$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/21/com/google/gson/stream/JsonReader.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/21/com/google/gson/stream/JsonScope.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/21/com/google/gson/stream/JsonToken.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/21/com/google/gson/stream/JsonWriter.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/21/com/google/gson/stream/MalformedJsonException.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/9.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/1/classes.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/1/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/10/classes.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/10/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/11/classes.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/11/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/12/classes.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/12/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/13/classes.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/13/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/14/classes.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/14/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/2/classes.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/2/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/3/classes.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/3/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/4/classes.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/4/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/5/classes.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/5/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/6/classes.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/6/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/7/classes.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/7/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/8/classes.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/8/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/9/classes.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/9/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/android/support/v7/appcompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/android/support/v7/appcompat/R$layout.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/R$id.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/R$integer.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/R$integer.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/R$layout.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/R$layout.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/R$mipmap.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/R$mipmap.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/R$string.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/R$string.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/R$style.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/R$style.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/R$styleable.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/R$styleable.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboDialogSample$1.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboDialogSample$1.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboDialogSample$2.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboDialogSample$2.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboDialogSample.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboDialogSample.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/zenbo_welcome$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/zenbo_welcome$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/zenbo_welcome.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/2/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/2/android/support/v7/appcompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/2/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/2/android/support/v7/appcompat/R$layout.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/buildId.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/buildId.txt" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/R$id.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/R$integer.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/R$integer.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/R$layout.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/R$layout.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/R$mipmap.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/R$mipmap.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/R$string.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/R$string.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/R$style.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/R$style.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/R$styleable.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/R$styleable.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboDialogSample$1.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboDialogSample$1.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboDialogSample$2.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboDialogSample$2.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboDialogSample.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboDialogSample.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/zenbo_welcome$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/zenbo_welcome$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/zenbo_welcome.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/mergeJavaRes/debug/0.jar" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/mergeJavaRes/debug/0.jar" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSample.java" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSample.java" />
-      <change beforePath="$PROJECT_DIR$/ZenboSDK/ZenboSDK.iml" afterPath="$PROJECT_DIR$/ZenboSDK/ZenboSDK.iml" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/zenbo_welcome.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_welcome.xml" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,80 +610,21 @@
       </state>
     </system>
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RobotDevSample/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RobotActivityLibrary/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZenboDialogSample/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZenboSDK/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZenboDialogSample.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="127" column="13" lean-forward="false" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>TAG</find>
       <find>queryListenResultJson</find>
       <find>activity</find>
+      <find>speak</find>
+      <find>robot</find>
+      <find>DialogSystem</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -4228,6 +4727,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/changePage.java" />
+        <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSystem.java" />
+        <option value="$PROJECT_DIR$/ZenboDialogSample/build.gradle" />
         <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSample.java" />
       </list>
     </option>
@@ -4254,11 +4756,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
+            <path>
+              <item name="ZenboSDK_and_SampleCode_v1.0.67.1808" type="1abcf292:AndroidViewProjectNode" />
+              <item name="ZenboDialogSample" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="ZenboSDK_and_SampleCode_v1.0.67.1808" type="1abcf292:AndroidViewProjectNode" />
+              <item name="ZenboDialogSample" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="ZenboSDK_and_SampleCode_v1.0.67.1808" type="1abcf292:AndroidViewProjectNode" />
+              <item name="ZenboDialogSample" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="zenbodialogsample" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
             <path>
               <item name="ZenboSDK_and_SampleCode_v1.0.67.1808" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
@@ -4267,8 +4786,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -4502,35 +5019,35 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3443163" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7413509" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -4546,7 +5063,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -4556,382 +5073,6 @@
         <state relative-caret-position="289">
           <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RobotDevSample/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RobotActivityLibrary/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboSDK/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RobotDevSample/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RobotActivityLibrary/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboSDK/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RobotDevSample/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RobotActivityLibrary/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboSDK/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RobotDevSample/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RobotActivityLibrary/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboSDK/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RobotDevSample/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RobotActivityLibrary/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboSDK/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2023">
-          <caret line="119" column="46" lean-forward="true" selection-start-line="119" selection-start-column="46" selection-end-line="119" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1938">
-          <caret line="114" column="13" lean-forward="true" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/ZenboSDK/ZenboSDK.jar!/com/asus/robotframework/API/RobotUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="54" column="46" lean-forward="false" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="46" />
-          <folding>
-            <marker date="1523779335926" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1523779335926" expanded="false" signature="151:396" ph="..." />
-            <marker date="1523779335926" expanded="true" signature="446:453" ph="{}" />
-            <marker date="1523779335926" expanded="true" signature="548:1521" ph="{...}" />
-            <marker date="1523779335926" expanded="true" signature="1602:1665" ph="{...}" />
-            <marker date="1523779335926" expanded="true" signature="1763:2167" ph="{...}" />
-            <marker date="1523779335926" expanded="true" signature="2277:3452" ph="{...}" />
-            <marker date="1523779335926" expanded="true" signature="3560:4188" ph="{...}" />
-            <marker date="1523779335926" expanded="true" signature="4256:4684" ph="{...}" />
-            <marker date="1523779335926" expanded="true" signature="4744:5033" ph="{...}" />
-            <marker date="1523779335926" expanded="true" signature="5102:5531" ph="{...}" />
-            <marker date="1523779335926" expanded="true" signature="5593:5886" ph="{...}" />
-            <marker date="1523779335926" expanded="true" signature="5954:6136" ph="{...}" />
-            <marker date="1523779335926" expanded="true" signature="6047:6130" ph="{...}" />
-            <marker date="1523779335926" expanded="true" signature="6202:6380" ph="{...}" />
-            <marker date="1523779335926" expanded="true" signature="6295:6374" ph="{...}" />
-            <marker date="1523779335926" expanded="true" signature="6442:6606" ph="{...}" />
-            <marker date="1523779335926" expanded="true" signature="6529:6600" ph="{...}" />
-            <marker date="1523779335926" expanded="true" signature="6641:6708" ph="{...}" />
-            <marker date="1523779335926" expanded="true" signature="6691:6702" ph="{}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/zenbo_welcome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RobotActivityLibrary/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RobotDevSample/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboSDK/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="127" column="13" lean-forward="false" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
