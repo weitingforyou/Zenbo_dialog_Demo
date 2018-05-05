@@ -117,7 +117,8 @@ public class ZenboDialogSample extends RobotActivity {
             if(sIntentionID.equals("ThisPlanLaunchingThisApp")){
                 text = "你好，我是理財助理Zenbo！請站在我的前方並看著我的眼睛，讓我認識你。";
                 mTextView.setText(text);
-                new RobotAPI(new ZenboDialogSample()).robot.speak(text);
+                //new RobotAPI(new ZenboDialogSample()).robot.speak(text);
+                //new RobotAPI(ZenboDialogSample.getApplicationContext()).robot.speak(text);
                 //new Intent().setClass(new ZenboDialogSample(), changePage.class);
             }
 
