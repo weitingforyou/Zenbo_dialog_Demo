@@ -30,7 +30,7 @@ public class ZenboQuestionTwo extends RobotActivity {
     private static RobotAPI mRobotAPI;
     private static Intent mIntent;
     private static Context mContext;
-    private static int CommandSerial_AB, CommandSerial_CD, CommandSerial_EF;
+    private static int  CommandSerial_A, CommandSerial_B, CommandSerial_C, CommandSerial_D, CommandSerial_E, CommandSerial_F;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,11 +48,11 @@ public class ZenboQuestionTwo extends RobotActivity {
         bt_leave = (Button)findViewById(R.id.button_leave);
 
         bt_A.setText("5,000以內");
-        bt_A.setText("5,000 ~ 10,000");
-        bt_A.setText("10,000 ~ 30,000");
-        bt_A.setText("30,001 ~ 50,000");
-        bt_A.setText("50,001 ~ 80,000");
-        bt_A.setText("80,001以上");
+        bt_B.setText("5,000 ~ 10,000");
+        bt_C.setText("10,000 ~ 30,000");
+        bt_D.setText("30,001 ~ 50,000");
+        bt_E.setText("50,001 ~ 80,000");
+        bt_F.setText("80,001以上");
 
         mRobotAPI = robotAPI;
         mIntent = new Intent();
@@ -65,8 +65,8 @@ public class ZenboQuestionTwo extends RobotActivity {
                 robotAPI.robot.stopSpeakAndListen();
 
                 String text = "好的，跟我一樣是小資族呢";
-                CommandSerial_AB = mRobotAPI.robot.speak(text);
-                Log.d(TAG, "check :"+ CommandSerial_AB);
+                CommandSerial_A = mRobotAPI.robot.speak(text);
+                Log.d(TAG, "check :"+ CommandSerial_A);
             }
         });
 
@@ -77,8 +77,8 @@ public class ZenboQuestionTwo extends RobotActivity {
                 robotAPI.robot.stopSpeakAndListen();
 
                 String text = "好的，跟我一樣是小資族呢";
-                CommandSerial_AB = mRobotAPI.robot.speak(text);
-                Log.d(TAG, "check :"+ CommandSerial_AB);
+                CommandSerial_B = mRobotAPI.robot.speak(text);
+                Log.d(TAG, "check :"+ CommandSerial_B);
             }
         });
 
@@ -89,8 +89,8 @@ public class ZenboQuestionTwo extends RobotActivity {
                 robotAPI.robot.stopSpeakAndListen();
 
                 String text = "好的，有點厲害耶，好羨慕你";
-                CommandSerial_CD = mRobotAPI.robot.speak(text);
-                Log.d(TAG, "check :"+ CommandSerial_CD);
+                CommandSerial_C= mRobotAPI.robot.speak(text);
+                Log.d(TAG, "check :"+ CommandSerial_C);
             }
         });
 
@@ -101,8 +101,8 @@ public class ZenboQuestionTwo extends RobotActivity {
                 robotAPI.robot.stopSpeakAndListen();
 
                 String text = "好的，有點厲害耶，好羨慕你";
-                CommandSerial_CD = mRobotAPI.robot.speak(text);
-                Log.d(TAG, "check :"+ CommandSerial_CD);
+                CommandSerial_D = mRobotAPI.robot.speak(text);
+                Log.d(TAG, "check :"+ CommandSerial_D);
             }
         });
 
@@ -113,8 +113,8 @@ public class ZenboQuestionTwo extends RobotActivity {
                 robotAPI.robot.stopSpeakAndListen();
 
                 String text = "好的，你財力好雄厚、人生勝利組耶";
-                CommandSerial_EF = mRobotAPI.robot.speak(text);
-                Log.d(TAG, "check :"+ CommandSerial_EF);
+                CommandSerial_E = mRobotAPI.robot.speak(text);
+                Log.d(TAG, "check :"+ CommandSerial_E);
             }
         });
 
@@ -125,8 +125,8 @@ public class ZenboQuestionTwo extends RobotActivity {
                 robotAPI.robot.stopSpeakAndListen();
 
                 String text = "好的，你財力好雄厚、人生勝利組耶";
-                CommandSerial_EF = mRobotAPI.robot.speak(text);
-                Log.d(TAG, "check :"+ CommandSerial_EF);
+                CommandSerial_F = mRobotAPI.robot.speak(text);
+                Log.d(TAG, "check :"+ CommandSerial_F);
             }
         });
 
@@ -183,8 +183,8 @@ public class ZenboQuestionTwo extends RobotActivity {
         @Override
         public void onStateChange(int cmd, int serial, RobotErrorCode err_code, RobotCmdState state) {
             super.onStateChange(cmd, serial, err_code, state);
-            if ((serial == CommandSerial_AB || serial == CommandSerial_CD || serial == CommandSerial_EF) && state != RobotCmdState.ACTIVE){
-                Log.d(TAG, "command: "+ "CommandSerial choice" + " SUCCEED");
+            if ((serial == CommandSerial_A || serial == CommandSerial_B || serial == CommandSerial_C || serial == CommandSerial_D || serial == CommandSerial_E || serial == CommandSerial_F)&& state != RobotCmdState.ACTIVE){
+                Log.d(TAG, "command: "+ "CommandSerial" + " SUCCEED");
                 mIntent.setClass(mContext, ZenboQuestionThree.class);
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 mContext.startActivity(mIntent);
@@ -228,60 +228,56 @@ public class ZenboQuestionTwo extends RobotActivity {
 
             if(sIntentionID.equals("Q2")) {
 
-                String sSluResultCity = RobotUtil.queryListenResultJson(jsonObject, "choicemoney", null);
+                String sSluResultCity = RobotUtil.queryListenResultJson(jsonObject, "money", null);
                 Log.d(TAG, "Response =" + sSluResultCity);
 
                 if(sSluResultCity.equals("a5000")) {
                     Log.d(TAG, "A");
 
                     text = "好的，跟我一樣是小資族呢";
-                    CommandSerial_AB = mRobotAPI.robot.speak(text);
-                    Log.d(TAG, "check :"+ CommandSerial_AB);
+                    CommandSerial_A = mRobotAPI.robot.speak(text);
+                    Log.d(TAG, "check :"+ CommandSerial_A);
                 }
                 else if (sSluResultCity.equals("b5001_10000")) {
                     Log.d(TAG, "B");
 
                     text = "好的，跟我一樣是小資族呢";
-                    CommandSerial_AB = mRobotAPI.robot.speak(text);
-                    Log.d(TAG, "check :"+ CommandSerial_AB);
+                    CommandSerial_B = mRobotAPI.robot.speak(text);
+                    Log.d(TAG, "check :"+ CommandSerial_B);
                 }
                 else if (sSluResultCity.equals("c10001_30000")) {
                     Log.d(TAG, "C");
 
                     text = "好的，有點厲害耶，好羨慕你";
-                    CommandSerial_CD = mRobotAPI.robot.speak(text);
-                    Log.d(TAG, "check :"+ CommandSerial_CD);
+                    CommandSerial_C = mRobotAPI.robot.speak(text);
+                    Log.d(TAG, "check :"+ CommandSerial_C);
                 }
                 else if (sSluResultCity.equals("d30001_50000")) {
                     Log.d(TAG, "D");
 
                     text = "好的，有點厲害耶，好羨慕你";
-                    CommandSerial_CD = mRobotAPI.robot.speak(text);
-                    Log.d(TAG, "check :"+ CommandSerial_CD);
+                    CommandSerial_D = mRobotAPI.robot.speak(text);
+                    Log.d(TAG, "check :"+ CommandSerial_D);
                 }
                 else if (sSluResultCity.equals("e50001_80000")) {
                     Log.d(TAG, "E");
 
                     text = "好的，你財力好雄厚、人生勝利組耶";
-                    CommandSerial_EF = mRobotAPI.robot.speak(text);
-                    Log.d(TAG, "check :"+ CommandSerial_EF);
+                    CommandSerial_E = mRobotAPI.robot.speak(text);
+                    Log.d(TAG, "check :"+ CommandSerial_E);
 
                 }
                 else if (sSluResultCity.equals("f80001")) {
                     Log.d(TAG, "F");
 
                     text = "好的，你財力好雄厚、人生勝利組耶";
-                    CommandSerial_EF = mRobotAPI.robot.speak(text);
-                    Log.d(TAG, "check :"+ CommandSerial_EF);
+                    CommandSerial_F = mRobotAPI.robot.speak(text);
+                    Log.d(TAG, "check :"+ CommandSerial_F);
 
                 }
                 else{
                     Log.d(TAG, "failed QQ");
                 }
-
-                mIntent.setClass(mContext, ZenboQuestionThree.class);
-                mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                mContext.startActivity(mIntent);
             }
 
         }

@@ -47,11 +47,11 @@ public class ZenboQuestionOne extends RobotActivity {
         bt_leave = (Button)findViewById(R.id.button_leave);
 
         bt_A.setText("1到2週一次");
-        bt_A.setText("每月一次");
-        bt_A.setText("每季一次");
-        bt_A.setText("半年一次");
-        bt_A.setText("一年一次");
-        bt_A.setText("一年以上一次");
+        bt_B.setText("每月一次");
+        bt_C.setText("每季一次");
+        bt_D.setText("半年一次");
+        bt_E.setText("一年一次");
+        bt_F.setText("一年以上一次");
 
         mRobotAPI = robotAPI;
         mIntent = new Intent();
@@ -221,7 +221,7 @@ public class ZenboQuestionOne extends RobotActivity {
 
             if(sIntentionID.equals("Q1")) {
 
-                String sSluResultCity = RobotUtil.queryListenResultJson(jsonObject, "choicetime", null);
+                String sSluResultCity = RobotUtil.queryListenResultJson(jsonObject, "time", null);
                 Log.d(TAG, "Response =" + sSluResultCity);
 
                 if(sSluResultCity.equals("week")) {

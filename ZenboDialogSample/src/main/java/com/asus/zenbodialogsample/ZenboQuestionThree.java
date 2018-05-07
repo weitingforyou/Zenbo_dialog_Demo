@@ -47,11 +47,11 @@ public class ZenboQuestionThree extends RobotActivity {
         bt_leave = (Button)findViewById(R.id.button_leave);
 
         bt_A.setText("1% ~ 2%");
-        bt_A.setText("2% ~ 4%");
-        bt_A.setText("4% ~ 6%");
-        bt_A.setText("6% ~ 8%");
-        bt_A.setText("8% ~ 10%");
-        bt_A.setText("10%以上");
+        bt_B.setText("2% ~ 4%");
+        bt_C.setText("4% ~ 6%");
+        bt_D.setText("6% ~ 8%");
+        bt_E.setText("8% ~ 10%");
+        bt_F.setText("10%以上");
 
         mRobotAPI = robotAPI;
         mIntent = new Intent();
@@ -221,7 +221,7 @@ public class ZenboQuestionThree extends RobotActivity {
 
             if(sIntentionID.equals("Q3")) {
 
-                String sSluResultCity = RobotUtil.queryListenResultJson(jsonObject, "choicestoptime", null);
+                String sSluResultCity = RobotUtil.queryListenResultJson(jsonObject, "stoptime", null);
                 Log.d(TAG, "Response =" + sSluResultCity);
 
                 if(sSluResultCity.equals("a1")) {

@@ -35,8 +35,8 @@ public class ZenboMakeSure extends RobotActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
-        setContentView(R.layout.activity_zenbo_start_service);
+        //requestWindowFeature(Window.FEATURE_NO_TITLE);
+        //setContentView(R.layout.activity_zenbo_start_service);
 
         //mTextView = (TextView) findViewById(R.id.textView_question);
         //bt_accept = (Button)findViewById(R.id.button_accept);
@@ -53,6 +53,7 @@ public class ZenboMakeSure extends RobotActivity {
 
         // set beginning expression : default
         robotAPI.robot.setExpression(RobotFace.HAPPY);
+        robotAPI.robot.speak("嘿嘿嘿嘿嘿");
 
         // jump dialog domain
         //robotAPI.robot.jumpToPlan(DOMAIN, "beforestart");
