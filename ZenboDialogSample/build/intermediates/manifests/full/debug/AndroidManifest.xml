@@ -32,6 +32,10 @@
             </intent-filter>
         </activity>
         <activity android:name="com.asus.zenbodialogsample.ZenboStartService" />
+        <activity android:name="com.asus.zenbodialogsample.ZenboQuestionOne" />
+        <activity android:name="com.asus.zenbodialogsample.ZenboQuestionTwo" />
+        <activity android:name="com.asus.zenbodialogsample.ZenboQuestionThree" />
+        <activity android:name="com.asus.zenbodialogsample.ZenboMakeSure" />
     </application>
 
 </manifest>
