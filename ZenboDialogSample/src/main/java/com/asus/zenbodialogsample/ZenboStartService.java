@@ -114,7 +114,7 @@ public class ZenboStartService extends RobotActivity {
             String sIntentionID = RobotUtil.queryListenResultJson(jsonObject, "IntentionId");
             Log.d(TAG, "Intention Id = " + sIntentionID);
 
-            if(sIntentionID.equals("ProvideService")) {
+            if(sIntentionID.equals("beforestart")) {
 
                 String sSluResultCity = RobotUtil.queryListenResultJson(jsonObject, "ans_AcceptReject", null);
                 Log.d(TAG, "Response =" + sSluResultCity);
