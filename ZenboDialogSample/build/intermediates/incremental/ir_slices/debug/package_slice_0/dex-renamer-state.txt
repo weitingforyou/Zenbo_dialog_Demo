@@ -1,4 +1,4 @@
-#Mon May 07 16:02:36 CST 2018
+#Mon May 07 21:57:24 CST 2018
 base.0=D\:\\NCCU 106-2\\Meeting\\Zenbo\\Zenbo_dialog\\ZenboSDK_and_SampleCode_v1.0.67.1808\\ZenboDialogSample\\build\\intermediates\\transforms\\dexMerger\\debug\\1
 path.0=classes.dex
 renamed.0=classes.dex

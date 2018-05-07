@@ -10,9 +10,9 @@
         android:theme="@style/RobotDevTheme">
 
         <meta-data android:name="zenbo_ds_domainuuid"
-                   android:value="DD1E4C84279C4598BD71DE6DFD0BA6BB"/>
+                   android:value="2C17093E978140CAB8898BD4BDAB9CF5"/>
 
-        <meta-data android:name="zenbo_ds_version_DD1E4C8s4279C4598BD71DE6DFD0BA6BB"
+        <meta-data android:name="zenbo_ds_version_2C17093E978140CAB8898BD4BDAB9CF5"
                    android:value="0.0.1"/>
 
         <activity android:name=".ZenboDialogSample">

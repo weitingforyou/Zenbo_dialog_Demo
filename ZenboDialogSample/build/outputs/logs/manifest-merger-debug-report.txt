@@ -54,7 +54,7 @@ ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0
 		ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:13:20-68
 	android:name
 		ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:12:20-54
-meta-data#zenbo_ds_version_DD1E4C84279C4598BD71DE6DFD0BA6BB
+meta-data#zenbo_ds_version_2C17093E978140CAB8898BD4BDAB9CF5
 ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:15:9-16:43
 	android:value
 		ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:16:20-41

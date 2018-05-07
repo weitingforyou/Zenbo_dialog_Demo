@@ -18,7 +18,7 @@ import org.json.JSONObject;
 
 public class ZenboStartService extends RobotActivity {
     public final static String TAG = "ZenboStartService";
-    public final static String DOMAIN = "DD1E4C84279C4598BD71DE6DFD0BA6BB";
+    public final static String DOMAIN = "2C17093E978140CAB8898BD4BDAB9CF5";
 
     private static TextView mTextView;
     private static RobotAPI mRobotAPI;
@@ -42,13 +42,13 @@ public class ZenboStartService extends RobotActivity {
         robotAPI.robot.setExpression(RobotFace.HIDEFACE);
 
         // jump dialog domain
-        robotAPI.robot.jumpToPlan(DOMAIN, "ProvideService");
+        robotAPI.robot.jumpToPlan(DOMAIN, "beforestart");
 
         // listen user utterance
         robotAPI.robot.speakAndListen("我想為你提出一些理財建議，你願意嗎？", new SpeakConfig().timeout(20));
 
         // show hint
-        //mTextView.setText(getResources().getString(R.string.dialog_example));
+        mTextView.setText("我想為你提出一些理財建議，你願意嗎？");
 
     }
 
