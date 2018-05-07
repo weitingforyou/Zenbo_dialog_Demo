@@ -1,36 +1,43 @@
 package com.asus.zenbodialogsample;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
 
-import com.asus.robotframework.API.DialogSystem;
 import com.asus.robotframework.API.RobotAPI;
 import com.asus.robotframework.API.RobotCallback;
 import com.asus.robotframework.API.RobotCmdState;
+import com.asus.robotframework.API.RobotCommand;
 import com.asus.robotframework.API.RobotErrorCode;
 import com.asus.robotframework.API.RobotFace;
 import com.asus.robotframework.API.RobotUtil;
 import com.asus.robotframework.API.SpeakConfig;
 import com.robot.asus.robotactivity.RobotActivity;
 
-import org.json.JSONException;
 import org.json.JSONObject;
 
 public class ZenboDialogSample extends RobotActivity {
     public final static String TAG = "ZenboDialogSample";
-    public final static String DOMAIN = "DD1E4C84279C4598BD71DE6DFD0BA6BB";
+    public final static String DOMAIN = "2C17093E978140CAB8898BD4BDAB9CF5";
 
-    private static TextView mTextView;
+    //private static TextView mTextView;
+    private static RobotAPI mRobotAPI;
+    private static Intent mIntent;
+    private static Context mContext_1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_zenbo_dialog_sample);
 
-        mTextView = (TextView) findViewById(R.id.textview_info);
-        mTextView.setText(DOMAIN);
+        //mTextView = (TextView) findViewById(R.id.textview_info);
+        //mTextView.setText(DOMAIN);
+
+        mRobotAPI = robotAPI;
+        mIntent = new Intent();
+        mContext_1 = this.getApplicationContext();
     }
 
     @Override
@@ -38,13 +45,13 @@ public class ZenboDialogSample extends RobotActivity {
         super.onResume();
 
         // set beginning expression : default
-        robotAPI.robot.setExpression(RobotFace.HIDEFACE);
+        robotAPI.robot.setExpression(RobotFace.INTERESTED);
 
         // jump dialog domain
         robotAPI.robot.jumpToPlan(DOMAIN, "ThisPlanLaunchingThisApp");
 
         // listen user utterance
-        robotAPI.robot.speakAndListen("你好，我是理財助理Juicy！請站在我的前方並看著我的眼睛，讓我認識你。", new SpeakConfig().timeout(20));
+        //robotAPI.robot.speakAndListen("你好，我是理財助理Juicy！請站在我的前方並看著我的眼睛，讓我認識你。", new SpeakConfig().timeout(20));
 
         // show hint
         //mTextView.setText(getResources().getString(R.string.dialog_example));
@@ -76,6 +83,8 @@ public class ZenboDialogSample extends RobotActivity {
             @Override
         public void onStateChange(int cmd, int serial, RobotErrorCode err_code, RobotCmdState state) {
             super.onStateChange(cmd, serial, err_code, state);
+            //String tmp = "onStateChange" + RobotCommand.getRobotCommand(cmd);
+            //Log.d(TAG, tmp);
         }
     };
 
@@ -100,7 +109,6 @@ public class ZenboDialogSample extends RobotActivity {
         public void onEventUserUtterance(JSONObject jsonObject) {
             String text;
             text = "onEventUserUtterance: " + jsonObject.toString();
-            //mTextView.setText(text);
             Log.d(TAG, text);
         }
 
@@ -115,13 +123,17 @@ public class ZenboDialogSample extends RobotActivity {
             Log.d(TAG, "Intention Id = " + sIntentionID);
 
             if(sIntentionID.equals("ThisPlanLaunchingThisApp")){
-                text = "你好，我是理財助理Zenbo！請站在我的前方並看著我的眼睛，讓我認識你。";
-                mTextView.setText(text);
-                //new RobotAPI(new ZenboDialogSample()).robot.speak(text);
-                //new RobotAPI(ZenboDialogSample.getApplicationContext()).robot.speak(text);
-                //new Intent().setClass(new ZenboDialogSample(), changePage.class);
+                text = "你好，我是理財助理Juicy！我想要認識你，請站在我的前方並看著我，我五秒後會幫你拍張照喔。";
+                //mTextView.setText(text);
+                mRobotAPI.robot.speak(text);
+                //RobotCommand.getRobotCommand(cmd).name()
+
+                //mIntent.setClass(mContext_1, ZenboStartService.class);
+                //mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                //mContext_1.startActivity(mIntent);
             }
 
+            /*
             if(sIntentionID.equals("ProvideService")) {
 
                 String sSluResultCity = RobotUtil.queryListenResultJson(jsonObject, "ans_AcceptReject", null);
@@ -129,23 +141,22 @@ public class ZenboDialogSample extends RobotActivity {
 
                 if(sSluResultCity.equals("reject")) {
                     Log.d(TAG, "你選擇了不好");
-                    mTextView.setText("你選擇了不好");
+                    //mTextView.setText("你選擇了不好");
                 }
                 else if (sSluResultCity.equals("accept")) {
                     Log.d(TAG, "你選擇了好");
-                    mTextView.setText("你選擇了好");
+                    //mTextView.setText("你選擇了好");
                 }
                 else{
                     Log.d(TAG, "failed QQ");
                 }
             }
+            */
 
         }
 
         @Override
-        public void onRetry(JSONObject jsonObject) {
-
-        }
+        public void onRetry(JSONObject jsonObject) {}
     };
 
 

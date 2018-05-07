@@ -1056,6 +1056,10 @@
         "source": "C:\\Users\\weiting\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\005061a7dfd4e25f08105bbd768e001e\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "D:\\NCCU 106-2\\Meeting\\Zenbo\\Zenbo_dialog\\ZenboSDK_and_SampleCode_v1.0.67.1808\\ZenboDialogSample\\build\\intermediates\\res\\merged\\debug\\layout_activity_zenbo_start_service.xml.flat",
+        "source": "D:\\NCCU 106-2\\Meeting\\Zenbo\\Zenbo_dialog\\ZenboSDK_and_SampleCode_v1.0.67.1808\\ZenboDialogSample\\src\\main\\res\\layout\\activity_zenbo_start_service.xml"
+    },
+    {
         "merged": "D:\\NCCU 106-2\\Meeting\\Zenbo\\Zenbo_dialog\\ZenboSDK_and_SampleCode_v1.0.67.1808\\ZenboDialogSample\\build\\intermediates\\res\\merged\\debug\\layout_abc_activity_chooser_view_list_item.xml.flat",
         "source": "C:\\Users\\weiting\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\005061a7dfd4e25f08105bbd768e001e\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
@@ -1098,6 +1102,10 @@
     {
         "merged": "D:\\NCCU 106-2\\Meeting\\Zenbo\\Zenbo_dialog\\ZenboSDK_and_SampleCode_v1.0.67.1808\\ZenboDialogSample\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_title_item.xml.flat",
         "source": "C:\\Users\\weiting\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\005061a7dfd4e25f08105bbd768e001e\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\NCCU 106-2\\Meeting\\Zenbo\\Zenbo_dialog\\ZenboSDK_and_SampleCode_v1.0.67.1808\\ZenboDialogSample\\build\\intermediates\\res\\merged\\debug\\layout_activity_zenbo_question.xml.flat",
+        "source": "D:\\NCCU 106-2\\Meeting\\Zenbo\\Zenbo_dialog\\ZenboSDK_and_SampleCode_v1.0.67.1808\\ZenboDialogSample\\src\\main\\res\\layout\\activity_zenbo_question.xml"
     },
     {
         "merged": "D:\\NCCU 106-2\\Meeting\\Zenbo\\Zenbo_dialog\\ZenboSDK_and_SampleCode_v1.0.67.1808\\ZenboDialogSample\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_voice_search_api_mtrl_alpha.png.flat",

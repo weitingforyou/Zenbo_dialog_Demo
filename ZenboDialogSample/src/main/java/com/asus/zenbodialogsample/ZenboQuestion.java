@@ -18,15 +18,17 @@ public class ZenboQuestion extends RobotActivity {
     public final static String TAG = "ZenboQuestion";
     public final static String DOMAIN = "DD1E4C84279C4598BD71DE6DFD0BA6BB";
 
+    public final static String QUESTION_1 = "你覺得你大約多久會做一次投資交易？";
+
     private static TextView mTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_zenbo_dialog_sample);
+        setContentView(R.layout.activity_zenbo_question);
 
-        mTextView = (TextView) findViewById(R.id.textview_info);
-        mTextView.setText(DOMAIN);
+        mTextView = (TextView) findViewById(R.id.textview_question);
+        mTextView.setText(QUESTION_1);
     }
 
     @Override
@@ -40,7 +42,7 @@ public class ZenboQuestion extends RobotActivity {
         robotAPI.robot.jumpToPlan(DOMAIN, "ThisPlanLaunchingThisApp");
 
         // listen user utterance
-        robotAPI.robot.speakAndListen("你好，我是理財助理Juicy！請站在我的前方並看著我的眼睛，讓我認識你。", new SpeakConfig().timeout(20));
+        robotAPI.robot.speakAndListen("你覺得你大約多久會做一次投資交易？", new SpeakConfig().timeout(20));
 
         // show hint
         //mTextView.setText(getResources().getString(R.string.dialog_example));

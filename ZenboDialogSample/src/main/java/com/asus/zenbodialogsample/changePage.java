@@ -5,10 +5,11 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 
 public class changePage extends AppCompatActivity {
-    public changePage(Context thisPage) {
+    public changePage() {
         //Context nextPage
-        //Intent intent = new Intent();
-        //intent.setClass(thisPage, nextPage.getClass());
-        //startActivity(intent);
+        //Context thisPage
+        Intent intent = new Intent();
+        //intent.setClass(ZenboDialogSample, nextPage.getClass());
+        startActivity(intent);
     }
 }
