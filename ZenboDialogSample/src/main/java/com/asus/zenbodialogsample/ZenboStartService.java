@@ -1,7 +1,9 @@
 package com.asus.zenbodialogsample;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -31,6 +33,7 @@ public class ZenboStartService extends RobotActivity {
     private static Intent mIntent;
     private static Context mContext;
     private static int CommandSerial_accept, CommandSerial_reject;
+    private static Activity mActivity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +48,7 @@ public class ZenboStartService extends RobotActivity {
         mRobotAPI = robotAPI;
         mIntent = new Intent();
         mContext = this.getApplicationContext();
+        mActivity = ZenboStartService.this;
 
 
         bt_accept.setOnClickListener(new Button.OnClickListener(){
@@ -121,7 +125,8 @@ public class ZenboStartService extends RobotActivity {
 
             if (serial == CommandSerial_reject && state != RobotCmdState.ACTIVE){
                 Log.d(TAG, "command: "+ CommandSerial_reject + " SUCCEED");
-                // [to do] leave app
+                mActivity.finish();
+                System.exit(0);
             }
 
             if (serial == CommandSerial_accept && state != RobotCmdState.ACTIVE){

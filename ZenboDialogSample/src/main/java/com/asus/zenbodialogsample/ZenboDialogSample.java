@@ -1,5 +1,6 @@
 package com.asus.zenbodialogsample;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -25,6 +26,7 @@ public class ZenboDialogSample extends RobotActivity {
     private static Intent mIntent;
     private static Context mContext_1;
     private static int iCurrentCommandSerial;
+    private static Activity mActivity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +37,7 @@ public class ZenboDialogSample extends RobotActivity {
         mRobotAPI = robotAPI;
         mIntent = new Intent();
         mContext_1 = this.getApplicationContext();
+        mActivity = ZenboDialogSample.this;
     }
 
     @Override
@@ -84,6 +87,8 @@ public class ZenboDialogSample extends RobotActivity {
                     mIntent.setClass(mContext_1, ZenboStartService.class);
                     mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     mContext_1.startActivity(mIntent);
+                    mActivity.finish();
+                    System.exit(0);
                 }
         }
     };

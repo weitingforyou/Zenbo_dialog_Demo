@@ -1,23 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#050505">
+
+    <TextView
+        android:id="@+id/textView_welcome"
+        android:layout_width="1124dp"
+        android:layout_height="51dp"
+        android:layout_y="23dp"
+        android:layout_x="78dp"
+        android:gravity="center"
+        android:text="你好，我是Juicy"
+        android:textColor="#ffffff"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="212dp"
+        android:layout_height="182dp"
+        android:layout_x="562dp"
+        android:layout_y="177dp"
+        app:srcCompat="@drawable/zenbo_icon" />
 
     <TextView
         android:id="@+id/textView_question"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
-
-    <Button
-        android:id="@+id/button_accept"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="好，開始吧" />
+        android:layout_width="612dp"
+        android:layout_height="47dp"
+        android:layout_x="334dp"
+        android:layout_y="390dp"
+        android:gravity="center_horizontal"
+        android:text="我想為你做一些理財建議，你願意嗎？"
+        android:textColor="#ffc51d"
+        android:textSize="36sp" />
 
     <Button
         android:id="@+id/button_reject"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="575dp"
+        android:layout_height="73dp"
+        android:layout_x="60dp"
+        android:layout_y="632dp"
         android:text="我不想" />
-</LinearLayout>
+
+    <Button
+        android:id="@+id/button_accept"
+        android:layout_width="575dp"
+        android:layout_height="73dp"
+        android:layout_x="645dp"
+        android:layout_y="632dp"
+        android:text="好，開始吧" />
+
+</AbsoluteLayout>

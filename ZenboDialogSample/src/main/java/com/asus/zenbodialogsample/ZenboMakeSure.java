@@ -25,7 +25,7 @@ public class ZenboMakeSure extends RobotActivity {
     public final static String DOMAIN = "2C17093E978140CAB8898BD4BDAB9CF5";
 
     private static TextView mTextView;
-    private static Button bt_accept, bt_reject;
+    private static Button bt_accept, bt_reject, bt_leave;
 
     private static RobotAPI mRobotAPI;
     private static Intent mIntent;
@@ -35,16 +35,54 @@ public class ZenboMakeSure extends RobotActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //requestWindowFeature(Window.FEATURE_NO_TITLE);
-        //setContentView(R.layout.activity_zenbo_start_service);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        setContentView(R.layout.activity_zenbo_makesure);
 
         //mTextView = (TextView) findViewById(R.id.textView_question);
-        //bt_accept = (Button)findViewById(R.id.button_accept);
-        //bt_reject = (Button)findViewById(R.id.button_reject);
+        bt_accept = (Button)findViewById(R.id.button_accept);
+        bt_reject = (Button)findViewById(R.id.button_reject);
+        bt_leave = (Button)findViewById(R.id.button_leave);
 
-        //mRobotAPI = robotAPI;
-        //mIntent = new Intent();
-        //mContext = this.getApplicationContext();
+        mRobotAPI = robotAPI;
+        mIntent = new Intent();
+        mContext = this.getApplicationContext();
+
+        bt_accept.setOnClickListener(new Button.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                robotAPI.robot.stopSpeakAndListen();
+
+                mRobotAPI.robot.setExpression(RobotFace.EXPECTING);
+                String text = "太好了！謝謝你回答完我的問題！";
+                CommandSerial_accept = mRobotAPI.robot.speak(text);
+                Log.d(TAG, "check :"+ CommandSerial_accept);
+            }
+        });
+
+        bt_reject.setOnClickListener(new Button.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                robotAPI.robot.stopSpeakAndListen();
+
+                mIntent.setClass(mContext, ZenboQuestionOne.class);
+                mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                mContext.startActivity(mIntent);
+            }
+        });
+
+        bt_leave.setOnClickListener(new Button.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                robotAPI.robot.stopSpeakAndListen();
+
+                mIntent.setClass(mContext, ZenboStartService.class);
+                mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                mContext.startActivity(mIntent);
+            }
+        });
     }
 
     @Override
@@ -52,14 +90,13 @@ public class ZenboMakeSure extends RobotActivity {
         super.onResume();
 
         // set beginning expression : default
-        robotAPI.robot.setExpression(RobotFace.HAPPY);
-        robotAPI.robot.speak("嘿嘿嘿嘿嘿");
+        robotAPI.robot.setExpression(RobotFace.HIDEFACE);
 
         // jump dialog domain
         //robotAPI.robot.jumpToPlan(DOMAIN, "beforestart");
 
         // listen user utterance
-        //robotAPI.robot.speakAndListen("我想為你提出一些理財建議，你願意嗎？", new SpeakConfig().timeout(20));
+        robotAPI.robot.speakAndListen("好的，能不能幫我確認剛才三題的回答是不是正確呢？", new SpeakConfig().timeout(20));
 
         // show hint
         //mTextView.setText("我想為你提出一些理財建議，你願意嗎？");
@@ -72,7 +109,7 @@ public class ZenboMakeSure extends RobotActivity {
         super.onPause();
 
         //stop listen user utterance
-        //robotAPI.robot.stopSpeakAndListen();
+        robotAPI.robot.stopSpeakAndListen();
         //mTextView.setText();
     }
 
@@ -91,6 +128,12 @@ public class ZenboMakeSure extends RobotActivity {
         @Override
         public void onStateChange(int cmd, int serial, RobotErrorCode err_code, RobotCmdState state) {
             super.onStateChange(cmd, serial, err_code, state);
+            if (serial == CommandSerial_accept && state != RobotCmdState.ACTIVE){
+                Log.d(TAG, "command: "+ CommandSerial_accept + " SUCCEED");
+                mIntent.setClass(mContext, ZenboResult.class);
+                mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                mContext.startActivity(mIntent);
+            }
         }
     };
 

@@ -1,5 +1,6 @@
 package com.asus.zenbodialogsample;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -30,6 +31,7 @@ public class ZenboQuestionOne extends RobotActivity {
     private static RobotAPI mRobotAPI;
     private static Intent mIntent;
     private static Context mContext;
+    private static Activity mActivity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,6 +58,7 @@ public class ZenboQuestionOne extends RobotActivity {
         mRobotAPI = robotAPI;
         mIntent = new Intent();
         mContext = this.getApplicationContext();
+        mActivity = ZenboQuestionOne.this;
 
         bt_A.setOnClickListener(new Button.OnClickListener(){
             @Override
@@ -134,7 +137,10 @@ public class ZenboQuestionOne extends RobotActivity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 robotAPI.robot.stopSpeakAndListen();
-                //[to do] leave app
+
+                mIntent.setClass(mContext, ZenboStartService.class);
+                mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                mContext.startActivity(mIntent);
             }
         });
     }

@@ -24,12 +24,11 @@
         </activity>
 
         <activity android:name=".ZenboStartService" />
-
         <activity android:name=".ZenboQuestionOne" />
         <activity android:name=".ZenboQuestionTwo" />
         <activity android:name=".ZenboQuestionThree" />
-
         <activity android:name=".ZenboMakeSure" />
+        <activity android:name=".ZenboResult" />
 
     </application>
 
