@@ -29,10 +29,13 @@ public class ZenboQuestionTwo extends RobotActivity {
     private static Button bt_A, bt_B, bt_C, bt_D, bt_E, bt_F, bt_leave;
 
     private static RobotAPI mRobotAPI;
-    private static Intent mIntent;
+    private static Intent mIntent, mGetIntent;
     private static Context mContext;
     private static int  CommandSerial_A, CommandSerial_B, CommandSerial_C, CommandSerial_D, CommandSerial_E, CommandSerial_F;
-    private static Activity mActivity;
+
+    private static Bundle mBundle;
+    private static String ans_1 = "5,000以內", ans_2 = "5,000 ~ 10,000", ans_3 = "10,000 ~ 30,000",
+                          ans_4 = "30,001 ~ 50,000", ans_5 = "50,001 ~ 80,000", ans_6 = "80,001以上";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,17 +52,18 @@ public class ZenboQuestionTwo extends RobotActivity {
         bt_F = (Button)findViewById(R.id.buttonF);
         bt_leave = (Button)findViewById(R.id.button_leave);
 
-        bt_A.setText("5,000以內");
-        bt_B.setText("5,000 ~ 10,000");
-        bt_C.setText("10,000 ~ 30,000");
-        bt_D.setText("30,001 ~ 50,000");
-        bt_E.setText("50,001 ~ 80,000");
-        bt_F.setText("80,001以上");
+        bt_A.setText(ans_1);
+        bt_B.setText(ans_2);
+        bt_C.setText(ans_3);
+        bt_D.setText(ans_4);
+        bt_E.setText(ans_5);
+        bt_F.setText(ans_6);
 
         mRobotAPI = robotAPI;
         mIntent = new Intent();
         mContext = this.getApplicationContext();
-        mActivity = ZenboQuestionTwo.this;
+        mBundle = new Bundle();
+        mGetIntent = getIntent();
 
         bt_A.setOnClickListener(new Button.OnClickListener(){
             @Override
@@ -189,10 +193,53 @@ public class ZenboQuestionTwo extends RobotActivity {
         @Override
         public void onStateChange(int cmd, int serial, RobotErrorCode err_code, RobotCmdState state) {
             super.onStateChange(cmd, serial, err_code, state);
-            if ((serial == CommandSerial_A || serial == CommandSerial_B || serial == CommandSerial_C || serial == CommandSerial_D || serial == CommandSerial_E || serial == CommandSerial_F)&& state != RobotCmdState.ACTIVE){
+            if (serial == CommandSerial_A && state != RobotCmdState.ACTIVE){
                 Log.d(TAG, "command: "+ "CommandSerial" + " SUCCEED");
                 mIntent.setClass(mContext, ZenboQuestionThree.class);
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                mBundle.putString("Q2_ans", ans_1);
+                mBundle.putString("Q1_ans",mGetIntent.getExtras().getString("Q1_ans", "0"));
+                mIntent.putExtras(mBundle);
+                mContext.startActivity(mIntent);
+            } else if (serial == CommandSerial_B && state != RobotCmdState.ACTIVE){
+                Log.d(TAG, "command: "+ "CommandSerial" + " SUCCEED");
+                mIntent.setClass(mContext, ZenboQuestionThree.class);
+                mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                mBundle.putString("Q2_ans", ans_2);
+                mBundle.putString("Q1_ans",mGetIntent.getExtras().getString("Q1_ans", "0"));
+                mIntent.putExtras(mBundle);
+                mContext.startActivity(mIntent);
+            } else if (serial == CommandSerial_C && state != RobotCmdState.ACTIVE){
+                Log.d(TAG, "command: "+ "CommandSerial" + " SUCCEED");
+                mIntent.setClass(mContext, ZenboQuestionThree.class);
+                mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                mBundle.putString("Q2_ans", ans_3);
+                mBundle.putString("Q1_ans",mGetIntent.getExtras().getString("Q1_ans", "0"));
+                mIntent.putExtras(mBundle);
+                mContext.startActivity(mIntent);
+            } else if (serial == CommandSerial_D && state != RobotCmdState.ACTIVE){
+                Log.d(TAG, "command: "+ "CommandSerial" + " SUCCEED");
+                mIntent.setClass(mContext, ZenboQuestionThree.class);
+                mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                mBundle.putString("Q2_ans", ans_4);
+                mBundle.putString("Q1_ans",mGetIntent.getExtras().getString("Q1_ans", "0"));
+                mIntent.putExtras(mBundle);
+                mContext.startActivity(mIntent);
+            } else if (serial == CommandSerial_E && state != RobotCmdState.ACTIVE){
+                Log.d(TAG, "command: "+ "CommandSerial" + " SUCCEED");
+                mIntent.setClass(mContext, ZenboQuestionThree.class);
+                mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                mBundle.putString("Q2_ans", ans_5);
+                mBundle.putString("Q1_ans",mGetIntent.getExtras().getString("Q1_ans", "0"));
+                mIntent.putExtras(mBundle);
+                mContext.startActivity(mIntent);
+            } else if (serial == CommandSerial_F && state != RobotCmdState.ACTIVE){
+                Log.d(TAG, "command: "+ "CommandSerial" + " SUCCEED");
+                mIntent.setClass(mContext, ZenboQuestionThree.class);
+                mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                mBundle.putString("Q2_ans", ans_6);
+                mBundle.putString("Q1_ans",mGetIntent.getExtras().getString("Q1_ans", "0"));
+                mIntent.putExtras(mBundle);
                 mContext.startActivity(mIntent);
             }
         }

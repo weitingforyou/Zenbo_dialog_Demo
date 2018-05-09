@@ -28,9 +28,11 @@ public class ZenboMakeSure extends RobotActivity {
     private static Button bt_accept, bt_reject, bt_leave;
 
     private static RobotAPI mRobotAPI;
-    private static Intent mIntent;
+    private static Intent mIntent, mGetIntent;
     private static Context mContext;
     private static int CommandSerial_accept, CommandSerial_reject;
+
+    private String ans1, ans2, ans3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,10 +53,15 @@ public class ZenboMakeSure extends RobotActivity {
         mIntent = new Intent();
         mContext = this.getApplicationContext();
 
-        Intent intent = getIntent();
-        String ans1 = intent.getStringExtra("Q1_ans");
+        mGetIntent = getIntent();
+
+        ans1 = mGetIntent.getExtras().getString("Q1_ans", "0");
+        ans2 = mGetIntent.getExtras().getString("Q3_ans", "0");
+        ans3 = mGetIntent.getExtras().getString("Q2_ans", "0");
 
         mAns_1.setText(ans1);
+        mAns_2.setText(ans2);
+        mAns_3.setText(ans3);
 
         bt_accept.setOnClickListener(new Button.OnClickListener(){
             @Override
