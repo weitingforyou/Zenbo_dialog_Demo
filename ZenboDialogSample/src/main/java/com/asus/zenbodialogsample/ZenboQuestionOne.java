@@ -33,6 +33,8 @@ public class ZenboQuestionOne extends RobotActivity {
     private static Context mContext;
     private static Activity mActivity;
 
+    private static String ans_1 = "1到2週一次", ans_2 = "每月一次", ans_3 = "每季一次", ans_4 = "半年一次", ans_5 = "一年一次", ans_6 = "一年以上一次";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,12 +50,12 @@ public class ZenboQuestionOne extends RobotActivity {
         bt_F = (Button)findViewById(R.id.buttonF);
         bt_leave = (Button)findViewById(R.id.button_leave);
 
-        bt_A.setText("1到2週一次");
-        bt_B.setText("每月一次");
-        bt_C.setText("每季一次");
-        bt_D.setText("半年一次");
-        bt_E.setText("一年一次");
-        bt_F.setText("一年以上一次");
+        bt_A.setText(ans_1);
+        bt_B.setText(ans_2);
+        bt_C.setText(ans_3);
+        bt_D.setText(ans_4);
+        bt_E.setText(ans_5);
+        bt_F.setText(ans_6);
 
         mRobotAPI = robotAPI;
         mIntent = new Intent();
@@ -68,6 +70,7 @@ public class ZenboQuestionOne extends RobotActivity {
 
                 mIntent.setClass(mContext, ZenboQuestionTwo.class);
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                mIntent.putExtra("Q1_ans",ans_1);
                 mContext.startActivity(mIntent);
             }
         });
@@ -80,6 +83,7 @@ public class ZenboQuestionOne extends RobotActivity {
 
                 mIntent.setClass(mContext, ZenboQuestionTwo.class);
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                mIntent.putExtra("Q1_ans",ans_2);
                 mContext.startActivity(mIntent);
             }
         });
@@ -92,6 +96,7 @@ public class ZenboQuestionOne extends RobotActivity {
 
                 mIntent.setClass(mContext, ZenboQuestionTwo.class);
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                mIntent.putExtra("Q1_ans",ans_3);
                 mContext.startActivity(mIntent);
             }
         });
@@ -104,6 +109,7 @@ public class ZenboQuestionOne extends RobotActivity {
 
                 mIntent.setClass(mContext, ZenboQuestionTwo.class);
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                mIntent.putExtra("Q1_ans",ans_4);
                 mContext.startActivity(mIntent);
             }
         });
@@ -116,6 +122,7 @@ public class ZenboQuestionOne extends RobotActivity {
 
                 mIntent.setClass(mContext, ZenboQuestionTwo.class);
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                mIntent.putExtra("Q1_ans",ans_5);
                 mContext.startActivity(mIntent);
             }
         });
@@ -128,6 +135,7 @@ public class ZenboQuestionOne extends RobotActivity {
 
                 mIntent.setClass(mContext, ZenboQuestionTwo.class);
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                mIntent.putExtra("Q1_ans",ans_6);
                 mContext.startActivity(mIntent);
             }
         });
@@ -230,29 +238,30 @@ public class ZenboQuestionOne extends RobotActivity {
                 String sSluResultCity = RobotUtil.queryListenResultJson(jsonObject, "time", null);
                 Log.d(TAG, "Response =" + sSluResultCity);
 
+                String ans = "";
                 if(sSluResultCity.equals("week")) {
                     Log.d(TAG, "A");
-
+                    ans = ans_1;
                 }
                 else if (sSluResultCity.equals("month")) {
                     Log.d(TAG, "B");
-
+                    ans = ans_2;
                 }
                 else if (sSluResultCity.equals("Each_quarter")) {
                     Log.d(TAG, "C");
-
+                    ans = ans_3;
                 }
                 else if (sSluResultCity.equals("Six_months")) {
                     Log.d(TAG, "D");
-
+                    ans = ans_4;
                 }
                 else if (sSluResultCity.equals("year")) {
                     Log.d(TAG, "E");
-
+                    ans = ans_5;
                 }
                 else if (sSluResultCity.equals("more_than_a_year")) {
                     Log.d(TAG, "F");
-
+                    ans = ans_6;
                 }
                 else{
                     Log.d(TAG, "failed QQ");
@@ -260,6 +269,7 @@ public class ZenboQuestionOne extends RobotActivity {
 
                 mIntent.setClass(mContext, ZenboQuestionTwo.class);
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                mIntent.putExtra("Q1_ans",ans);
                 mContext.startActivity(mIntent);
             }
 

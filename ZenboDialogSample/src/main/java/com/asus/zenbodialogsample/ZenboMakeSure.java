@@ -24,7 +24,7 @@ public class ZenboMakeSure extends RobotActivity {
     public final static String TAG = "ZenboMakeSure";
     public final static String DOMAIN = "2C17093E978140CAB8898BD4BDAB9CF5";
 
-    private static TextView mTextView;
+    private static TextView mTextView, mAns_1, mAns_2, mAns_3;
     private static Button bt_accept, bt_reject, bt_leave;
 
     private static RobotAPI mRobotAPI;
@@ -42,10 +42,19 @@ public class ZenboMakeSure extends RobotActivity {
         bt_accept = (Button)findViewById(R.id.button_accept);
         bt_reject = (Button)findViewById(R.id.button_reject);
         bt_leave = (Button)findViewById(R.id.button_leave);
+        mAns_1 = (TextView)findViewById(R.id.textView_ans1);
+        mAns_2 = (TextView)findViewById(R.id.textView_ans2);
+        mAns_3 = (TextView)findViewById(R.id.textView_ans3);
+
 
         mRobotAPI = robotAPI;
         mIntent = new Intent();
         mContext = this.getApplicationContext();
+
+        Intent intent = getIntent();
+        String ans1 = intent.getStringExtra("Q1_ans");
+
+        mAns_1.setText(ans1);
 
         bt_accept.setOnClickListener(new Button.OnClickListener(){
             @Override
@@ -93,7 +102,7 @@ public class ZenboMakeSure extends RobotActivity {
         robotAPI.robot.setExpression(RobotFace.HIDEFACE);
 
         // jump dialog domain
-        //robotAPI.robot.jumpToPlan(DOMAIN, "beforestart");
+        robotAPI.robot.jumpToPlan(DOMAIN, "checkquestion");
 
         // listen user utterance
         robotAPI.robot.speakAndListen("好的，能不能幫我確認剛才三題的回答是不是正確呢？", new SpeakConfig().timeout(20));
@@ -158,7 +167,29 @@ public class ZenboMakeSure extends RobotActivity {
         public void onEventUserUtterance(JSONObject jsonObject) { }
 
         @Override
-        public void onResult(JSONObject jsonObject) { }
+        public void onResult(JSONObject jsonObject) {
+            String sIntentionID = RobotUtil.queryListenResultJson(jsonObject, "IntentionId");
+            Log.d(TAG, "Intention Id = " + sIntentionID);
+
+            if(sIntentionID.equals("checkquestion")) {
+
+                String sSluResultCity = RobotUtil.queryListenResultJson(jsonObject, "check", null);
+                Log.d(TAG, "Response =" + sSluResultCity);
+
+                if (sSluResultCity.equals("yes")) {
+                    mRobotAPI.robot.setExpression(RobotFace.EXPECTING);
+                    String text = "太好了！謝謝你回答完我的問題！";
+                    CommandSerial_accept = mRobotAPI.robot.speak(text);
+                    Log.d(TAG, "check :" + CommandSerial_accept);
+                } else if (sSluResultCity.equals("no")) {
+                    mIntent.setClass(mContext, ZenboQuestionOne.class);
+                    mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    mContext.startActivity(mIntent);
+                }
+            }
+
+        }
+
 
         @Override
         public void onRetry(JSONObject jsonObject) {}

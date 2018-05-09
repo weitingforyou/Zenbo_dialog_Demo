@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.asus.robotframework.API.RobotAPI;
@@ -28,6 +29,7 @@ public class ZenboStartService extends RobotActivity {
 
     private static TextView mTextView;
     private static Button bt_accept, bt_reject;
+    private static ImageView imageView;
 
     private static RobotAPI mRobotAPI;
     private static Intent mIntent;
@@ -44,11 +46,13 @@ public class ZenboStartService extends RobotActivity {
         mTextView = (TextView) findViewById(R.id.textView_question);
         bt_accept = (Button)findViewById(R.id.button_accept);
         bt_reject = (Button)findViewById(R.id.button_reject);
+        imageView = (ImageView)findViewById(R.id.imageView);
 
         mRobotAPI = robotAPI;
         mIntent = new Intent();
         mContext = this.getApplicationContext();
         mActivity = ZenboStartService.this;
+        //imageView.setImageDrawable(R.drawable.illustration);
 
 
         bt_accept.setOnClickListener(new Button.OnClickListener(){

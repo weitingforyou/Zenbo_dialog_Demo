@@ -1,29 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#050505">
 
     <TextView
         android:id="@+id/textView_question"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="1124dp"
+        android:layout_height="51dp"
+        android:layout_x="78dp"
+        android:layout_y="23dp"
+        android:textSize="40sp"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
         android:text="請確認內容正確" />
 
     <Button
         android:id="@+id/button_leave"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="380dp"
+        android:layout_height="73dp"
+        android:layout_x="60dp"
+        android:layout_y="632dp"
+        android:layout_marginTop="632dp"
         android:text="我要離開" />
 
     <Button
         android:id="@+id/button_accept"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="380dp"
+        android:layout_height="73dp"
+        android:layout_x="450dp"
+        android:layout_y="632dp"
         android:text="非常正確" />
 
     <Button
         android:id="@+id/button_reject"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="380dp"
+        android:layout_height="73dp"
+        android:layout_x="840dp"
+        android:layout_y="632dp"
         android:text="有錯，重來吧" />
-</LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_q1"
+        android:layout_width="544dp"
+        android:layout_height="42dp"
+        android:text="你覺得你大約多久會做一次投資交易？"
+        android:textSize="32sp"
+        android:layout_x="183dp"
+        android:layout_y="146dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView_q2"
+        android:layout_width="544dp"
+        android:layout_height="42dp"
+        android:text="你每個月想要投資多少錢？"
+        android:textSize="32sp"
+        android:layout_x="183dp"
+        android:layout_y="286dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView_q3"
+        android:layout_width="544dp"
+        android:layout_height="42dp"
+        android:text="你覺得你大約虧損多少時會想要停止投資？"
+        android:textSize="32sp"
+        android:layout_x="183dp"
+        android:layout_y="426dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView_ans1"
+        android:layout_width="353dp"
+        android:layout_height="52dp"
+        android:text="ans 1"
+        android:layout_x="867dp"
+        android:layout_y="141dp"
+        android:textSize="40sp"
+        android:textColor="#ffffff"
+        android:gravity="end"/>
+
+    <TextView
+        android:id="@+id/textView_ans2"
+        android:layout_width="353dp"
+        android:layout_height="52dp"
+        android:text="ans 2"
+        android:layout_x="867dp"
+        android:layout_y="281dp"
+        android:textSize="40sp"
+        android:textColor="#ffffff"
+        android:gravity="end"/>
+
+    <TextView
+        android:id="@+id/textView_ans3"
+        android:layout_width="353dp"
+        android:layout_height="52dp"
+        android:text="ans 3"
+        android:layout_x="867dp"
+        android:layout_y="421dp"
+        android:textSize="40sp"
+        android:textColor="#ffffff"
+        android:gravity="end"/>
+</AbsoluteLayout>
