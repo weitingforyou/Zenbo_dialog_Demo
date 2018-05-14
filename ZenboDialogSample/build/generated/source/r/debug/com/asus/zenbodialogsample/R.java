@@ -1800,8 +1800,13 @@ public final class R {
     public static final int abc_textfield_search_activated_mtrl_alpha=0x7f060048;
     public static final int abc_textfield_search_default_mtrl_alpha=0x7f060049;
     public static final int abc_textfield_search_material=0x7f06004a;
-    public static final int illustration=0x7f06004b;
-    public static final int notification_template_icon_bg=0x7f06004c;
+    public static final int btn_1150_px_border_white=0x7f06004b;
+    public static final int btn_1150_px_color_yellow=0x7f06004c;
+    public static final int illustration=0x7f06004d;
+    public static final int item_color_blue=0x7f06004e;
+    public static final int item_color_green=0x7f06004f;
+    public static final int item_color_orange=0x7f060050;
+    public static final int notification_template_icon_bg=0x7f060051;
   }
   public static final class id {
     public static final int action0=0x7f070000;
@@ -1899,22 +1904,24 @@ public final class R {
     public static final int text=0x7f07005c;
     public static final int text2=0x7f07005d;
     public static final int textSpacerNoButtons=0x7f07005e;
-    public static final int textView_ans1=0x7f07005f;
-    public static final int textView_ans2=0x7f070060;
-    public static final int textView_ans3=0x7f070061;
-    public static final int textView_q1=0x7f070062;
-    public static final int textView_q2=0x7f070063;
-    public static final int textView_q3=0x7f070064;
-    public static final int textView_question=0x7f070065;
-    public static final int textView_welcome=0x7f070066;
-    public static final int time=0x7f070067;
-    public static final int title=0x7f070068;
-    public static final int title_template=0x7f070069;
-    public static final int topPanel=0x7f07006a;
-    public static final int up=0x7f07006b;
-    public static final int useLogo=0x7f07006c;
-    public static final int withText=0x7f07006d;
-    public static final int wrap_content=0x7f07006e;
+    public static final int textView=0x7f07005f;
+    public static final int textView2=0x7f070060;
+    public static final int textView_ans1=0x7f070061;
+    public static final int textView_ans2=0x7f070062;
+    public static final int textView_ans3=0x7f070063;
+    public static final int textView_q1=0x7f070064;
+    public static final int textView_q2=0x7f070065;
+    public static final int textView_q3=0x7f070066;
+    public static final int textView_question=0x7f070067;
+    public static final int textView_welcome=0x7f070068;
+    public static final int time=0x7f070069;
+    public static final int title=0x7f07006a;
+    public static final int title_template=0x7f07006b;
+    public static final int topPanel=0x7f07006c;
+    public static final int up=0x7f07006d;
+    public static final int useLogo=0x7f07006e;
+    public static final int withText=0x7f07006f;
+    public static final int wrap_content=0x7f070070;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f080000;

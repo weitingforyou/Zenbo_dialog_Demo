@@ -36,20 +36,46 @@
         android:textColor="#ffc51d"
         android:textSize="36sp" />
 
-    <Button
-        android:id="@+id/button_reject"
+
+    <ImageButton
+        android:id="@+id/button_accept"
         android:layout_width="575dp"
         android:layout_height="73dp"
         android:layout_x="60dp"
         android:layout_y="632dp"
-        android:text="我不想" />
+        android:src="@drawable/btn_1150_px_border_white"
+        android:background="#00000000" />
 
-    <Button
-        android:id="@+id/button_accept"
+    <ImageButton
+        android:id="@+id/button_reject"
         android:layout_width="575dp"
         android:layout_height="73dp"
         android:layout_x="645dp"
         android:layout_y="632dp"
-        android:text="好，開始吧" />
+        android:src="@drawable/btn_1150_px_color_yellow"
+        android:background="#00000000" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="473dp"
+        android:layout_height="39.5dp"
+        android:textSize="32sp"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
+        android:layout_x="111dp"
+        android:layout_y="649dp"
+        tools:text="我不想" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="473dp"
+        android:layout_height="39.5dp"
+        android:textSize="32sp"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
+        android:layout_x="696dp"
+        android:layout_y="649dp"
+        tools:text="我不想" />
+
 
 </AbsoluteLayout>

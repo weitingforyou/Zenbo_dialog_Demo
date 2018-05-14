@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#050505" >
@@ -15,42 +16,6 @@
         android:gravity="center_horizontal"/>
 
     <Button
-        android:id="@+id/buttonA"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="A" />
-
-    <Button
-        android:id="@+id/buttonB"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="B" />
-
-    <Button
-        android:id="@+id/buttonC"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="C" />
-
-    <Button
-        android:id="@+id/buttonD"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="D" />
-
-    <Button
-        android:id="@+id/buttonE"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="E" />
-
-    <Button
-        android:id="@+id/buttonF"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="F" />
-
-    <Button
         android:id="@+id/button_leave"
         android:text="我要離開"
         android:layout_width="wrap_content"
@@ -58,4 +23,59 @@
         android:textSize="32sp"
         android:textColor="#ffffff"
         android:gravity="center_horizontal" />
-</LinearLayout>
+
+    <ImageButton
+        android:id="@+id/buttonA"
+        android:layout_width="111dp"
+        android:layout_height="111dp"
+        android:layout_x="60dp"
+        android:layout_y="107dp"
+        android:src="@drawable/item_color_orange"
+        android:background="#00000000" />
+
+    <ImageButton
+        android:id="@+id/buttonB"
+        android:layout_width="111dp"
+        android:layout_height="111dp"
+        android:layout_x="640dp"
+        android:layout_y="107dp"
+        android:src="@drawable/item_color_orange"
+        android:background="#00000000" />
+
+    <ImageButton
+        android:id="@+id/buttonC"
+        android:layout_width="111dp"
+        android:layout_height="111dp"
+        android:layout_x="60dp"
+        android:layout_y="242dp"
+        android:src="@drawable/item_color_blue"
+        android:background="#00000000" />
+
+    <ImageButton
+        android:id="@+id/buttonD"
+        android:layout_width="111dp"
+        android:layout_height="111dp"
+        android:layout_x="640dp"
+        android:layout_y="242dp"
+        android:src="@drawable/item_color_blue"
+        android:background="#00000000" />
+
+    <ImageButton
+        android:id="@+id/buttonE"
+        android:layout_width="111dp"
+        android:layout_height="111dp"
+        android:layout_x="60dp"
+        android:layout_y="377dp"
+        android:src="@drawable/item_color_green"
+        android:background="#00000000" />
+
+    <ImageButton
+        android:id="@+id/buttonF"
+        android:layout_width="111dp"
+        android:layout_height="111dp"
+        android:layout_x="640dp"
+        android:layout_y="377dp"
+        android:src="@drawable/item_color_green"
+        android:background="#00000000" />
+
+</AbsoluteLayout>
