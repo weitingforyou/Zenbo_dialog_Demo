@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -16,44 +17,19 @@
         android:gravity="center_horizontal"
         android:text="請確認內容正確" />
 
-    <Button
-        android:id="@+id/button_leave"
-        android:layout_width="380dp"
-        android:layout_height="73dp"
-        android:layout_x="60dp"
-        android:layout_y="632dp"
-        android:layout_marginTop="632dp"
-        android:text="我要離開" />
-
-    <Button
-        android:id="@+id/button_accept"
-        android:layout_width="380dp"
-        android:layout_height="73dp"
-        android:layout_x="450dp"
-        android:layout_y="632dp"
-        android:text="非常正確" />
-
-    <Button
-        android:id="@+id/button_reject"
-        android:layout_width="380dp"
-        android:layout_height="73dp"
-        android:layout_x="840dp"
-        android:layout_y="632dp"
-        android:text="有錯，重來吧" />
-
     <TextView
         android:id="@+id/textView_q1"
-        android:layout_width="544dp"
+        android:layout_width="682dp"
         android:layout_height="42dp"
-        android:text="你覺得你大約多久會做一次投資交易？"
-        android:textSize="32sp"
         android:layout_x="183dp"
         android:layout_y="146dp"
-        android:textColor="#ffffff" />
+        android:text="你覺得你大約多久會做一次投資交易？"
+        android:textColor="#ffffff"
+        android:textSize="32sp" />
 
     <TextView
         android:id="@+id/textView_q2"
-        android:layout_width="544dp"
+        android:layout_width="682dp"
         android:layout_height="42dp"
         android:text="你每個月想要投資多少錢？"
         android:textSize="32sp"
@@ -63,7 +39,7 @@
 
     <TextView
         android:id="@+id/textView_q3"
-        android:layout_width="544dp"
+        android:layout_width="682dp"
         android:layout_height="42dp"
         android:text="你覺得你大約虧損多少時會想要停止投資？"
         android:textSize="32sp"
@@ -103,4 +79,66 @@
         android:textSize="40sp"
         android:textColor="#ffffff"
         android:gravity="end"/>
+
+    <ImageButton
+        android:id="@+id/imageButton_leave"
+        android:layout_width="380dp"
+        android:layout_height="73dp"
+        android:layout_x="60dp"
+        android:layout_y="632dp"
+        android:src="@drawable/btn_760_px_border_white"
+        android:background="#00000000" />
+
+    <ImageButton
+        android:id="@+id/imageButton_reject"
+        android:layout_width="380dp"
+        android:layout_height="73dp"
+        android:layout_x="450dp"
+        android:layout_y="632dp"
+        android:src="@drawable/btn_760_px_color_blue"
+        android:background="#00000000" />
+
+    <ImageButton
+        android:id="@+id/imageButton_accept"
+        android:layout_width="380dp"
+        android:layout_height="73dp"
+        android:layout_x="840dp"
+        android:layout_y="632dp"
+        android:src="@drawable/btn_760_px_color_yellow"
+        android:background="#00000000" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="312.5dp"
+        android:layout_height="39.5dp"
+        android:text="我要離開"
+        android:textSize="32sp"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
+        android:layout_y="649dp"
+        android:layout_x="93.5dp"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="312.5dp"
+        android:layout_height="39.5dp"
+        android:text="有錯，重來吧"
+        android:textSize="32sp"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
+        android:layout_y="649dp"
+        android:layout_x="483.5dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="312.5dp"
+        android:layout_height="39.5dp"
+        android:text="非常正確"
+        android:textSize="32sp"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
+        android:layout_y="649dp"
+        android:layout_x="873.5dp" />
+
+
 </AbsoluteLayout>

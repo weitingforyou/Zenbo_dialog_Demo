@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.asus.robotframework.API.RobotAPI;
@@ -26,7 +27,8 @@ public class ZenboQuestionThree extends RobotActivity {
     public final static String DOMAIN = "2C17093E978140CAB8898BD4BDAB9CF5";
 
     private static TextView mTextView;
-    private static Button bt_A, bt_B, bt_C, bt_D, bt_E, bt_F, bt_leave;
+    private static ImageButton bt_A, bt_B, bt_C, bt_D, bt_E, bt_F, bt_leave;
+    private static TextView tv_A, tv_B, tv_C, tv_D, tv_E, tv_F;
 
     private static RobotAPI mRobotAPI;
     private static Intent mIntent, mGetIntent;
@@ -43,20 +45,27 @@ public class ZenboQuestionThree extends RobotActivity {
         setContentView(R.layout.activity_zenbo_question);
 
         mTextView = (TextView) findViewById(R.id.textView_question);
-        bt_A = (Button)findViewById(R.id.buttonA);
-        bt_B = (Button)findViewById(R.id.buttonB);
-        bt_C = (Button)findViewById(R.id.buttonC);
-        bt_D = (Button)findViewById(R.id.buttonD);
-        bt_E = (Button)findViewById(R.id.buttonE);
-        bt_F = (Button)findViewById(R.id.buttonF);
-        bt_leave = (Button)findViewById(R.id.button_leave);
+        bt_A = (ImageButton)findViewById(R.id.buttonA);
+        bt_B = (ImageButton)findViewById(R.id.buttonB);
+        bt_C = (ImageButton)findViewById(R.id.buttonC);
+        bt_D = (ImageButton)findViewById(R.id.buttonD);
+        bt_E = (ImageButton)findViewById(R.id.buttonE);
+        bt_F = (ImageButton)findViewById(R.id.buttonF);
+        bt_leave = (ImageButton)findViewById(R.id.imageButton_leave);
 
-        bt_A.setText(ans_1);
-        bt_B.setText(ans_2);
-        bt_C.setText(ans_3);
-        bt_D.setText(ans_4);
-        bt_E.setText(ans_5);
-        bt_F.setText(ans_6);
+        tv_A = (TextView)findViewById(R.id.textView_A);
+        tv_B = (TextView)findViewById(R.id.textView_B);
+        tv_C = (TextView)findViewById(R.id.textView_C);
+        tv_D = (TextView)findViewById(R.id.textView_D);
+        tv_E = (TextView)findViewById(R.id.textView_E);
+        tv_F = (TextView)findViewById(R.id.textView_F);
+
+        tv_A.setText(ans_1);
+        tv_B.setText(ans_2);
+        tv_C.setText(ans_3);
+        tv_D.setText(ans_4);
+        tv_E.setText(ans_5);
+        tv_F.setText(ans_6);
 
         mRobotAPI = robotAPI;
         mIntent = new Intent();

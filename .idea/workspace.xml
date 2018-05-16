@@ -17,6 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="280c67d5-9331-4513-9cdb-46f892f55998" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_result.xml" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
@@ -26,18 +27,40 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/generated/source/r/debug/com/asus/zenbodialogsample/R.java" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/generated/source/r/debug/com/asus/zenbodialogsample/R.java" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/blame/res/debug/multi-v2/debug.json" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/blame/res/debug/single/debug.json" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/debug/resources-debug.ap_" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/merged/debug/drawable_btn_1150_px_border_white.png.flat" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/merged/debug/drawable_btn_1150_px_border_white.png.flat" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/merged/debug/drawable_btn_1150_px_color_yellow.png.flat" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/merged/debug/drawable_btn_1150_px_color_yellow.png.flat" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/merged/debug/drawable_illustration.png.flat" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/merged/debug/drawable_illustration.png.flat" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/merged/debug/drawable_item_color_green.png.flat" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/merged/debug/drawable_item_color_green.png.flat" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/merged/debug/drawable_item_color_orange.png.flat" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/merged/debug/drawable_item_color_orange.png.flat" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/merged/debug/layout_activity_zenbo_makesure.xml.flat" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/merged/debug/layout_activity_zenbo_makesure.xml.flat" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/merged/debug/layout_activity_zenbo_question.xml.flat" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/merged/debug/layout_activity_zenbo_question.xml.flat" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/merged/debug/layout_activity_zenbo_start_service.xml.flat" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/merged/debug/layout_activity_zenbo_start_service.xml.flat" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/symbols/debug/R.txt" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboMakeSure.java" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboMakeSure.java" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionOne.java" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionOne.java" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboStartService.java" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboStartService.java" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionThree.java" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionThree.java" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionTwo.java" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionTwo.java" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/drawable/btn_1150_px_border_white.png" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/drawable/btn_1150_px_border_white.png" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/drawable/btn_1150_px_color_yellow.png" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/drawable/btn_1150_px_color_yellow.png" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/drawable/drawable-hdpi/primary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/drawable/drawable-mdpi/primary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/drawable/drawable-xhdpi/primary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/drawable/drawable-xxhdpi/primary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/drawable/drawable-xxxhdpi/primary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/drawable/drawable/btn_1150_px_border_white.png" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/drawable/drawable/btn_1150_px_border_white.png" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/drawable/drawable/btn_1150_px_color_yellow.png" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/drawable/drawable/btn_1150_px_color_yellow.png" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/drawable/drawable/illustration.png" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/drawable/drawable/illustration.png" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/drawable/drawable/item_color_green.png" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/drawable/drawable/item_color_green.png" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/drawable/drawable/item_color_orange.png" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/drawable/drawable/item_color_orange.png" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/drawable/illustration.png" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/drawable/illustration.png" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/drawable/item_color_green.png" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/drawable/item_color_green.png" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/drawable/item_color_orange.png" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/drawable/item_color_orange.png" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_makesure.xml" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_makesure.xml" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_question.xml" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_question.xml" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_start_service.xml" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_start_service.xml" />
     </list>
@@ -61,82 +84,13 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ZenboQuestionOne.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionOne.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZenboQuestionTwo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionTwo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="200" column="92" lean-forward="false" selection-start-line="200" selection-start-column="16" selection-end-line="200" selection-end-column="92" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZenboQuestionThree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionThree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="31" column="39" lean-forward="false" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZenboMakeSure.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboMakeSure.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="45" column="32" lean-forward="false" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZenboStartService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboStartService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-357">
-              <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
-              <folding>
-                <element signature="method#onResult#0;class#3912:4905" expanded="false" />
-                <element signature="method#onFinishRegister#0;class#4974:6940" expanded="false" />
-                <element signature="method#onVoiceDetect#0;class#4974:6940" expanded="false" />
-                <element signature="method#onSpeakComplete#0;class#4974:6940" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_zenbo_question.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_question.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="73" column="35" lean-forward="false" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="layoutResourceFile_vertical" />
         <option value="Class" />
+        <option value="layoutResourceFile_vertical" />
       </list>
     </option>
   </component>
@@ -4260,14 +4214,15 @@
         <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSample.java" />
         <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboResult.java" />
         <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_makesure.xml" />
+        <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboStartService.java" />
+        <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_start_service.xml" />
+        <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionOne.java" />
         <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionTwo.java" />
         <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionThree.java" />
-        <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboMakeSure.java" />
-        <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboStartService.java" />
-        <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionOne.java" />
-        <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_start_service.xml" />
         <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_question.xml" />
+        <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_makesure.xml" />
+        <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboMakeSure.java" />
+        <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_result.xml" />
       </list>
     </option>
   </component>
@@ -4293,30 +4248,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ZenboSDK_and_SampleCode_v1.0.67.1808" type="58d84e3e:PackageViewProjectNode" />
-              <item name="ZenboDialogSample" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="ZenboSDK_and_SampleCode_v1.0.67.1808" type="58d84e3e:PackageViewProjectNode" />
-              <item name="ZenboDialogSample" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="ZenboSDK_and_SampleCode_v1.0.67.1808" type="58d84e3e:PackageViewProjectNode" />
-              <item name="ZenboDialogSample" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="asus.zenbodialogsample" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -4412,6 +4343,30 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="res" type="462c0819:PsiDirectoryNode" />
               <item name="drawable" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ZenboSDK_and_SampleCode_v1.0.67.1808" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ZenboDialogSample" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="ZenboSDK_and_SampleCode_v1.0.67.1808" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ZenboDialogSample" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="ZenboSDK_and_SampleCode_v1.0.67.1808" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ZenboDialogSample" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="asus.zenbodialogsample" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -4680,8 +4635,8 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19062027" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33278418" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19062027" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33772653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -4748,14 +4703,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ZenboSDK/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -5021,7 +4968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5035,17 +4981,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_makesure.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="82" column="29" lean-forward="false" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-167">
@@ -5054,82 +4989,96 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboStartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionThree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="67" column="28" lean-forward="false" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="68" column="28" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="68" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_dialog_sample.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_question.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="200" column="92" lean-forward="false" selection-start-line="200" selection-start-column="16" selection-end-line="200" selection-end-column="92" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="3842">
+          <caret line="226" column="17" lean-forward="true" selection-start-line="226" selection-start-column="17" selection-end-line="226" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        <state relative-caret-position="459">
+          <caret line="47" column="53" lean-forward="false" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="53" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboStartService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
-          <folding>
-            <element signature="method#onResult#0;class#3912:4905" expanded="false" />
-            <element signature="method#onFinishRegister#0;class#4974:6940" expanded="false" />
-            <element signature="method#onVoiceDetect#0;class#4974:6940" expanded="false" />
-            <element signature="method#onSpeakComplete#0;class#4974:6940" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_start_service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="77" column="27" lean-forward="true" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboMakeSure.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="45" column="32" lean-forward="false" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+        <state relative-caret-position="134">
+          <caret line="47" column="60" lean-forward="true" selection-start-line="47" selection-start-column="60" selection-end-line="47" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionThree.java">
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_makesure.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="31" column="39" lean-forward="false" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        <state relative-caret-position="33">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_question.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="73" column="35" lean-forward="false" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_result.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="78" column="31" lean-forward="false" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_start_service.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="59" column="8" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="66" selection-end-column="27" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

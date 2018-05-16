@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.asus.robotframework.API.RobotAPI;
@@ -25,7 +26,7 @@ public class ZenboMakeSure extends RobotActivity {
     public final static String DOMAIN = "2C17093E978140CAB8898BD4BDAB9CF5";
 
     private static TextView mTextView, mAns_1, mAns_2, mAns_3;
-    private static Button bt_accept, bt_reject, bt_leave;
+    private static ImageButton bt_accept, bt_reject, bt_leave;
 
     private static RobotAPI mRobotAPI;
     private static Intent mIntent, mGetIntent;
@@ -41,9 +42,9 @@ public class ZenboMakeSure extends RobotActivity {
         setContentView(R.layout.activity_zenbo_makesure);
 
         //mTextView = (TextView) findViewById(R.id.textView_question);
-        bt_accept = (Button)findViewById(R.id.button_accept);
-        bt_reject = (Button)findViewById(R.id.button_reject);
-        bt_leave = (Button)findViewById(R.id.button_leave);
+        bt_accept = (ImageButton)findViewById(R.id.imageButton_accept);
+        bt_reject = (ImageButton)findViewById(R.id.imageButton_reject);
+        bt_leave = (ImageButton)findViewById(R.id.imageButton_leave);
         mAns_1 = (TextView)findViewById(R.id.textView_ans1);
         mAns_2 = (TextView)findViewById(R.id.textView_ans2);
         mAns_3 = (TextView)findViewById(R.id.textView_ans3);
@@ -56,8 +57,8 @@ public class ZenboMakeSure extends RobotActivity {
         mGetIntent = getIntent();
 
         ans1 = mGetIntent.getExtras().getString("Q1_ans", "0");
-        ans2 = mGetIntent.getExtras().getString("Q3_ans", "0");
-        ans3 = mGetIntent.getExtras().getString("Q2_ans", "0");
+        ans2 = mGetIntent.getExtras().getString("Q2_ans", "0");
+        ans3 = mGetIntent.getExtras().getString("Q3s_ans", "0");
 
         mAns_1.setText(ans1);
         mAns_2.setText(ans2);

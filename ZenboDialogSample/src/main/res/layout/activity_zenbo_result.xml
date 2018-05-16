@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#050505">
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="1124dp"
+        android:layout_height="51dp"
+        android:text="最適合你的投資方式"
+        android:textSize="40sp"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
+        android:layout_x="78dp"
+        android:layout_y="23dp" />
+
+    <TextView
+        android:id="@+id/textView_result"
+        android:layout_width="405dp"
+        android:layout_height="55dp"
+        android:text="你適合保守型的投資"
+        android:textSize="45sp"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
+        android:layout_x="684dp"
+        android:layout_y="177dp" />
+
+    <TextView
+        android:id="@+id/textView_slogan"
+        android:layout_width="405dp"
+        android:layout_height="45dp"
+        android:text="一步一腳印、追求踏實"
+        android:textSize="36sp"
+        android:textColor="#ffc51d"
+        android:gravity="center_horizontal"
+        android:layout_x="684dp"
+        android:layout_y="233dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton_again"
+        android:layout_width="575dp"
+        android:layout_height="73dp"
+        android:layout_x="60dp"
+        android:layout_y="632dp"
+        android:background="#00000000"
+        android:src="@drawable/btn_1150_px_border_white" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="575dp"
+        android:layout_height="73dp"
+        android:layout_x="645dp"
+        android:layout_y="632dp"
+        android:background="#00000000"
+        android:src="@drawable/btn_1150_px_color_yellow" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="473dp"
+        android:layout_height="39.5dp"
+        android:textSize="32sp"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
+        android:layout_x="111dp"
+        android:layout_y="649dp"
+        tools:text="我要再測一次"  />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="473dp"
+        android:layout_height="39.5dp"
+        android:textSize="32sp"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
+        android:layout_x="696dp"
+        android:layout_y="649dp"
+        tools:text="謝謝，我知道了" />
+</AbsoluteLayout>
