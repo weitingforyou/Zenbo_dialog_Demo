@@ -144,17 +144,17 @@
 
     <TextView
         android:id="@+id/textView_A"
-        android:layout_width="204.5dp"
+        android:layout_width="425dp"
         android:layout_height="52dp"
-        android:text="TextView"
-        android:layout_x="203.5dp"
+        android:layout_x="204dp"
         android:layout_y="136.5dp"
-        android:textSize="40sp"
-        android:textColor="#ffffff" />
+        android:text="TextView"
+        android:textColor="#ffffff"
+        android:textSize="40sp" />
 
     <TextView
         android:id="@+id/textView_C"
-        android:layout_width="204.5dp"
+        android:layout_width="425dp"
         android:layout_height="52dp"
         android:text="TextView"
         android:layout_x="203.5dp"
@@ -164,7 +164,7 @@
 
     <TextView
         android:id="@+id/textView_E"
-        android:layout_width="204.5dp"
+        android:layout_width="425dp"
         android:layout_height="52dp"
         android:text="TextView"
         android:layout_x="203.5dp"
@@ -174,7 +174,7 @@
 
     <TextView
         android:id="@+id/textView_B"
-        android:layout_width="204.5dp"
+        android:layout_width="425dp"
         android:layout_height="52dp"
         android:text="TextView"
         android:layout_x="783dp"
@@ -184,7 +184,7 @@
 
     <TextView
         android:id="@+id/textView_D"
-        android:layout_width="204.5dp"
+        android:layout_width="425dp"
         android:layout_height="52dp"
         android:text="TextView"
         android:layout_x="783dp"
@@ -194,7 +194,7 @@
 
     <TextView
         android:id="@+id/textView_F"
-        android:layout_width="204.5dp"
+        android:layout_width="425dp"
         android:layout_height="52dp"
         android:layout_x="785dp"
         android:layout_y="406.5dp"

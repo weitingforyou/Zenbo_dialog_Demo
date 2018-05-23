@@ -33,6 +33,7 @@ public class ZenboQuestionThree extends RobotActivity {
     private static RobotAPI mRobotAPI;
     private static Intent mIntent, mGetIntent;
     private static Context mContext;
+    private static Activity mActivity;
 
     private static Bundle mBundle;
     private static String ans_1 = "1% ~ 2%", ans_2 = "2% ~ 4%", ans_3 = "4% ~ 6%",
@@ -72,6 +73,7 @@ public class ZenboQuestionThree extends RobotActivity {
         mContext = this.getApplicationContext();
         mBundle = new Bundle();
         mGetIntent = getIntent();
+        mActivity = new Activity();
 
         bt_A.setOnClickListener(new Button.OnClickListener(){
             @Override
@@ -82,10 +84,13 @@ public class ZenboQuestionThree extends RobotActivity {
                 mIntent.setClass(mContext, ZenboMakeSure.class);
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 mBundle.putString("Q3_ans", ans_1);
+                mBundle.putInt("Q3_score", 1);
                 mBundle.putString("Q1_ans",mGetIntent.getExtras().getString("Q1_ans", "0"));
                 mBundle.putString("Q2_ans",mGetIntent.getExtras().getString("Q2_ans", "0"));
+                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_ans", 0));
                 mIntent.putExtras(mBundle);
                 mContext.startActivity(mIntent);
+                mActivity.finish();
             }
         });
 
@@ -98,10 +103,13 @@ public class ZenboQuestionThree extends RobotActivity {
                 mIntent.setClass(mContext, ZenboMakeSure.class);
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 mBundle.putString("Q3_ans", ans_2);
+                mBundle.putInt("Q3_score", 3);
                 mBundle.putString("Q1_ans",mGetIntent.getExtras().getString("Q1_ans", "0"));
                 mBundle.putString("Q2_ans",mGetIntent.getExtras().getString("Q2_ans", "0"));
+                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_ans", 0));
                 mIntent.putExtras(mBundle);
                 mContext.startActivity(mIntent);
+                mActivity.finish();
             }
         });
 
@@ -114,10 +122,13 @@ public class ZenboQuestionThree extends RobotActivity {
                 mIntent.setClass(mContext, ZenboMakeSure.class);
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 mBundle.putString("Q3_ans", ans_3);
+                mBundle.putInt("Q3_score", 5);
                 mBundle.putString("Q1_ans",mGetIntent.getExtras().getString("Q1_ans", "0"));
                 mBundle.putString("Q2_ans",mGetIntent.getExtras().getString("Q2_ans", "0"));
+                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_ans", 0));
                 mIntent.putExtras(mBundle);
                 mContext.startActivity(mIntent);
+                mActivity.finish();
             }
         });
 
@@ -130,10 +141,13 @@ public class ZenboQuestionThree extends RobotActivity {
                 mIntent.setClass(mContext, ZenboMakeSure.class);
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 mBundle.putString("Q3_ans", ans_4);
+                mBundle.putInt("Q3_score", 7);
                 mBundle.putString("Q1_ans",mGetIntent.getExtras().getString("Q1_ans", "0"));
                 mBundle.putString("Q2_ans",mGetIntent.getExtras().getString("Q2_ans", "0"));
+                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_ans", 0));
                 mIntent.putExtras(mBundle);
                 mContext.startActivity(mIntent);
+                mActivity.finish();
             }
         });
 
@@ -146,10 +160,13 @@ public class ZenboQuestionThree extends RobotActivity {
                 mIntent.setClass(mContext, ZenboMakeSure.class);
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 mBundle.putString("Q3_ans", ans_5);
+                mBundle.putInt("Q3_score", 9);
                 mBundle.putString("Q1_ans",mGetIntent.getExtras().getString("Q1_ans", "0"));
                 mBundle.putString("Q2_ans",mGetIntent.getExtras().getString("Q2_ans", "0"));
+                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_ans", 0));
                 mIntent.putExtras(mBundle);
                 mContext.startActivity(mIntent);
+                mActivity.finish();
             }
         });
 
@@ -162,10 +179,13 @@ public class ZenboQuestionThree extends RobotActivity {
                 mIntent.setClass(mContext, ZenboMakeSure.class);
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 mBundle.putString("Q3_ans", ans_6);
+                mBundle.putInt("Q3_score", 12);
                 mBundle.putString("Q1_ans",mGetIntent.getExtras().getString("Q1_ans", "0"));
                 mBundle.putString("Q2_ans",mGetIntent.getExtras().getString("Q2_ans", "0"));
+                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_ans", 0));
                 mIntent.putExtras(mBundle);
                 mContext.startActivity(mIntent);
+                mActivity.finish();
             }
         });
 
@@ -178,6 +198,7 @@ public class ZenboQuestionThree extends RobotActivity {
                 mIntent.setClass(mContext, ZenboStartService.class);
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 mContext.startActivity(mIntent);
+                mActivity.finish();
             }
         });
     }
@@ -268,30 +289,36 @@ public class ZenboQuestionThree extends RobotActivity {
                 Log.d(TAG, "Response =" + sSluResultCity);
 
                 String ans = "";
-
+                int score = 0;
                 if(sSluResultCity.equals("a1")) {
                     Log.d(TAG, "A");
                     ans = ans_1;
+                    score = 1;
                 }
                 else if (sSluResultCity.equals("b2")) {
                     Log.d(TAG, "B");
                     ans = ans_2;
+                    score = 3;
                 }
                 else if (sSluResultCity.equals("c4")) {
                     Log.d(TAG, "C");
                     ans = ans_3;
+                    score = 5;
                 }
                 else if (sSluResultCity.equals("d6")) {
                     Log.d(TAG, "D");
                     ans = ans_4;
+                    score = 7;
                 }
                 else if (sSluResultCity.equals("e8")) {
                     Log.d(TAG, "E");
                     ans = ans_5;
+                    score = 9;
                 }
                 else if (sSluResultCity.equals("f10")) {
                     Log.d(TAG, "F");
                     ans = ans_6;
+                    score = 12;
                 }
                 else{
                     Log.d(TAG, "failed QQ");
@@ -302,8 +329,10 @@ public class ZenboQuestionThree extends RobotActivity {
                 mBundle.putString("Q3_ans", ans);
                 mBundle.putString("Q1_ans",mGetIntent.getExtras().getString("Q1_ans", "0"));
                 mBundle.putString("Q2_ans",mGetIntent.getExtras().getString("Q2_ans", "0"));
+                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_ans", 0));
                 mIntent.putExtras(mBundle);
                 mContext.startActivity(mIntent);
+                mActivity.finish();
             }
 
         }

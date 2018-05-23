@@ -50,7 +50,7 @@
         android:src="@drawable/btn_1150_px_border_white" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/imageButton_accept"
         android:layout_width="575dp"
         android:layout_height="73dp"
         android:layout_x="645dp"
@@ -79,4 +79,22 @@
         android:layout_x="696dp"
         android:layout_y="649dp"
         tools:text="謝謝，我知道了" />
+
+    <TextView
+        android:id="@+id/textView_recommand"
+        android:layout_width="405dp"
+        android:layout_height="126dp"
+        android:layout_x="684dp"
+        android:layout_y="309dp"
+        android:text="投資建議 - "
+        android:textColor="#ffffff"
+        android:textSize="32sp" />
+
+    <ImageView
+        android:id="@+id/imageView_chart"
+        android:layout_width="366dp"
+        android:layout_height="366dp"
+        android:layout_x="163dp"
+        android:layout_y="124dp"
+        app:srcCompat="@drawable/result_pie_chart_conservative" />
 </AbsoluteLayout>

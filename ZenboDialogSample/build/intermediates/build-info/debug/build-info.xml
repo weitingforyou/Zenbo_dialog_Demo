@@ -5,35 +5,27 @@
     build-mode="COLD"
     density="mdpi"
     format="10"
-    ir-eligibility="FIELD_REMOVED"
     plugin-version="3.1.2"
-    timestamp="1525863477682"
+    timestamp="1526546559899"
     token="-5231801856164661780"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1112" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="264" />
+        duration="0" />
     <task
         name="verifier"
-        duration="144" />
-
-    <artifact
-        location="D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\build\intermediates\instant-run-apk\debug\ZenboDialogSample-debug.apk"
-        type="SPLIT_MAIN" />
+        duration="0" />
 
     <build
         build-mode="FULL"
-        timestamp="1525852306283"
+        timestamp="1526544727671"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\build\intermediates\split-apk\debug\slices\slice_3.apk"
@@ -75,32 +67,23 @@
     <build
         build-mode="COLD"
         ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1525857808681"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1525860700370"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\build\intermediates\instant-run-apk\debug\ZenboDialogSample-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="FIELD_REMOVED"
-        timestamp="1525863477682"
+        timestamp="1526546018688"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1526546386593"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\build\intermediates\instant-run-apk\debug\ZenboDialogSample-debug.apk"
             type="SPLIT_MAIN" />
     </build>
+    <build
+        build-mode="COLD"
+        timestamp="1526546559899"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
