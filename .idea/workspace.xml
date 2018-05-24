@@ -17,7 +17,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="280c67d5-9331-4513-9cdb-46f892f55998" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboThinking.java" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
@@ -28,116 +27,208 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/build-info/debug/build-info.xml" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/build-info/debug/build-info.xml" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboDialogSample$1.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboDialogSample$1.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboDialogSample$2.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboDialogSample$2.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboDialogSample.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboDialogSample.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboMakeSure$1.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboMakeSure$1.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboMakeSure$2.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboMakeSure$2.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboMakeSure$3.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboMakeSure$3.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboMakeSure$4.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboMakeSure$4.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboMakeSure$5.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboMakeSure$5.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboMakeSure.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboMakeSure.class" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionOne$7.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionOne$7.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionOne$8.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionOne$8.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionOne$9.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionOne$9.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionOne.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionOne.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionThree$8.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionThree$8.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionThree$9.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionThree$9.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionThree.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionThree.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$1.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$1.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$2.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$2.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$3.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$3.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$4.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$4.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$5.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$5.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$6.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$6.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$7.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$7.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$8.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$8.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$9.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$9.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionTwo.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboQuestionTwo.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboResult$1.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboResult$1.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboResult$2.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboResult$2.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboResult$3.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboResult$3.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboResult$4.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboResult$4.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboResult.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboResult.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboStartService$1.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboStartService$1.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboStartService$2.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboStartService$2.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboStartService$3.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboStartService$3.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboStartService$4.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboStartService$4.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboStartService.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboStartService.class" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboThinking$1.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboThinking$1.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboThinking$2.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboThinking$2.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboThinking.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/classes/debug/com/asus/zenbodialogsample/ZenboThinking.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboDialogSample$1.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboDialogSample$1.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboDialogSample$2.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboDialogSample$2.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboDialogSample.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboDialogSample.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboMakeSure$1.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboMakeSure$1.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboMakeSure$2.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboMakeSure$2.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboMakeSure$3.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboMakeSure$3.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboMakeSure$4.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboMakeSure$4.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboMakeSure$5.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboMakeSure$5.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboMakeSure.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboMakeSure.class" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionOne$7.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionOne$7.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionOne$8.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionOne$8.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionOne$9.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionOne$9.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionOne.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionOne.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionThree$8.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionThree$8.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionThree$9.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionThree$9.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionThree.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionThree.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$1.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$1.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$2.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$2.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$3.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$3.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$4.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$4.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$5.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$5.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$6.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$6.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$7.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$7.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$8.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$8.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$9.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionTwo$9.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionTwo.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboQuestionTwo.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboResult$1.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboResult$1.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboResult$2.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboResult$2.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboResult$3.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboResult$3.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboResult$4.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboResult$4.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboResult.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboResult.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboStartService$1.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboStartService$1.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboStartService$2.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboStartService$2.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboStartService$3.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboStartService$3.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboStartService$4.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboStartService$4.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboStartService.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboStartService.class" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_dep/debug/package_dependencies/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_dep/debug/package_dependencies/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_1/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_1/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboThinking$1.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboThinking$1.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboThinking$2.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboThinking$2.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboThinking.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental-verifier/debug/com/asus/zenbodialogsample/ZenboThinking.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_3/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_3/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_4/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_4/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_6/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_6/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_7/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_7/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_8/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_8/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/vqkZMX02TcE7MWnajpp7p0X9Vbs=" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/vqkZMX02TcE7MWnajpp7p0X9Vbs=" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/packageInstantRunResourcesDebug/tmp/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/packageInstantRunResourcesDebug/tmp/debug/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/packageInstantRunResourcesDebug/tmp/debug/zip-cache/vqkZMX02TcE7MWnajpp7p0X9Vbs=" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/incremental/packageInstantRunResourcesDebug/tmp/debug/zip-cache/vqkZMX02TcE7MWnajpp7p0X9Vbs=" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/instant-run-apk/debug/ZenboDialogSample-debug.apk" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/instant-run-apk/debug/ZenboDialogSample-debug.apk" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/manifest-checker/debug/manifest.crc" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/manifest-checker/debug/manifest.crc" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/manifest-checker/debug/manifest.xml" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/manifest-checker/debug/manifest.xml" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/debug/resources-debug.ap_" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/merged/debug/layout_activity_zenbo_result.xml.flat" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/merged/debug/layout_activity_zenbo_result.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/merged/debug/layout_activity_zenbo_start_service.xml.flat" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/res/merged/debug/layout_activity_zenbo_start_service.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_0.apk" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_0.apk" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_2.apk" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_2.apk" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_3.apk" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_3.apk" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_4.apk" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_4.apk" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_5.apk" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_5.apk" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_6.apk" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_6.apk" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_8.apk" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/split-apk/debug/slices/slice_8.apk" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/16.jar" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/16.jar" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboDialogSample$1.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboDialogSample$1.dex" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboDialogSample$2.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboDialogSample$2.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboDialogSample.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboDialogSample.dex" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboMakeSure$1.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboMakeSure$1.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboMakeSure$2.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboMakeSure$2.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboMakeSure$3.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboMakeSure$3.dex" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboMakeSure$4.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboMakeSure$4.dex" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboMakeSure$5.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboMakeSure$5.dex" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboMakeSure.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboMakeSure.dex" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionOne$7.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionOne$7.dex" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionOne$8.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionOne$8.dex" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionOne$9.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionOne$9.dex" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionOne.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionOne.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionThree$8.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionThree$8.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionThree$9.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionThree$9.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionThree.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionThree.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionTwo$1.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionTwo$1.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionTwo$2.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionTwo$2.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionTwo$3.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionTwo$3.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionTwo$4.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionTwo$4.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionTwo$5.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionTwo$5.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionTwo$6.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionTwo$6.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionTwo$7.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionTwo$7.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionTwo$8.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionTwo$8.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionTwo$9.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionTwo$9.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionTwo.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboQuestionTwo.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboResult$1.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboResult$1.dex" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboResult$2.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboResult$2.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboResult$3.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboResult$3.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboResult$4.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboResult$4.dex" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboResult.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboResult.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboStartService$1.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboStartService$1.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboStartService$2.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboStartService$2.dex" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboStartService$3.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboStartService$3.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboStartService$4.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboStartService$4.dex" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboStartService.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboStartService.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboThinking$1.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboThinking$1.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboThinking$2.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboThinking$2.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboThinking.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexBuilder/debug/22/com/asus/zenbodialogsample/ZenboThinking.dex" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/4/classes.dex" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/dexMerger/debug/4/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboDialogSample$1.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboDialogSample$1.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboDialogSample$2.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboDialogSample$2.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboDialogSample.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboDialogSample.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboMakeSure$1.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboMakeSure$1.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboMakeSure$2.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboMakeSure$2.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboMakeSure$3.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboMakeSure$3.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboMakeSure$4.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboMakeSure$4.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboMakeSure$5.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboMakeSure$5.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboMakeSure.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboMakeSure.class" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionOne$7.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionOne$7.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionOne$8.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionOne$8.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionOne$9.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionOne$9.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionOne.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionOne.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionThree$8.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionThree$8.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionThree$9.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionThree$9.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionThree.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionThree.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionTwo$1.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionTwo$1.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionTwo$2.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionTwo$2.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionTwo$3.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionTwo$3.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionTwo$4.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionTwo$4.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionTwo$5.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionTwo$5.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionTwo$6.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionTwo$6.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionTwo$7.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionTwo$7.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionTwo$8.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionTwo$8.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionTwo$9.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionTwo$9.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionTwo.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboQuestionTwo.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboResult$1.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboResult$1.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboResult$2.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboResult$2.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboResult$3.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboResult$3.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboResult$4.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboResult$4.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboResult.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboResult.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboStartService$1.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboStartService$1.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboStartService$2.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboStartService$2.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboStartService$3.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboStartService$3.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboStartService$4.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboStartService$4.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboStartService.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboStartService.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboThinking$1.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboThinking$1.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboThinking$2.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboThinking$2.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboThinking.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRun/debug/0/com/asus/zenbodialogsample/ZenboThinking.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/buildId.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/buildId.txt" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboDialogSample$1.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboDialogSample$1.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboDialogSample$2.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboDialogSample$2.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboDialogSample.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboDialogSample.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboMakeSure$1.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboMakeSure$1.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboMakeSure$2.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboMakeSure$2.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboMakeSure$3.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboMakeSure$3.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboMakeSure$4.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboMakeSure$4.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboMakeSure$5.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboMakeSure$5.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboMakeSure.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboMakeSure.class" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionOne$7.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionOne$7.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionOne$8.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionOne$8.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionOne$9.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionOne$9.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionOne.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionOne.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionThree$8.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionThree$8.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionThree$9.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionThree$9.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionThree.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionThree.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionTwo$1.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionTwo$1.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionTwo$2.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionTwo$2.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionTwo$3.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionTwo$3.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionTwo$4.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionTwo$4.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionTwo$5.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionTwo$5.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionTwo$6.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionTwo$6.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionTwo$7.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionTwo$7.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionTwo$8.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionTwo$8.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionTwo$9.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionTwo$9.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionTwo.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboQuestionTwo.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboResult$1.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboResult$1.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboResult$2.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboResult$2.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboResult$3.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboResult$3.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboResult$4.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboResult$4.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboResult.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboResult.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboStartService$1.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboStartService$1.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboStartService$2.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboStartService$2.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboStartService$3.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboStartService$3.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboStartService$4.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboStartService$4.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboStartService.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboStartService.class" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboThinking$1.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboThinking$1.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboThinking$2.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboThinking$2.class" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboThinking.class" afterPath="$PROJECT_DIR$/ZenboDialogSample/build/intermediates/transforms/instantRunSlicer/debug/3/com/asus/zenbodialogsample/ZenboThinking.class" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSample.java" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSample.java" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboMakeSure.java" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboMakeSure.java" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionOne.java" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionOne.java" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionThree.java" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionThree.java" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionTwo.java" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionTwo.java" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboResult.java" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboResult.java" />
       <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboStartService.java" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboStartService.java" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_result.xml" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_result.xml" />
-      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_start_service.xml" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_start_service.xml" />
+      <change beforePath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboThinking.java" afterPath="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboThinking.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -160,11 +251,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ZenboDialogSample.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSample.java">
+      <file leaf-file-name="ZenboStartService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboStartService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="118" column="75" lean-forward="false" selection-start-line="118" selection-start-column="75" selection-end-line="118" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -4300,18 +4391,18 @@
         <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestion.java" />
         <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_question.xml" />
         <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_makesure.xml" />
-        <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionThree.java" />
-        <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionTwo.java" />
         <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_start_service.xml" />
-        <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionOne.java" />
         <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboCloseApp.java" />
-        <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboStartService.java" />
         <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboThinking.java" />
         <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/res/layout/activity_zenbo_result.xml" />
-        <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboResult.java" />
-        <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboMakeSure.java" />
         <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSample.java" />
+        <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionOne.java" />
+        <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionThree.java" />
+        <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboMakeSure.java" />
+        <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboThinking.java" />
+        <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboResult.java" />
+        <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionTwo.java" />
+        <option value="$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboStartService.java" />
       </list>
     </option>
   </component>
@@ -5080,14 +5171,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboStartService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest">
         <state />
@@ -5095,79 +5178,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="30" column="50" lean-forward="false" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-684">
-          <caret line="109" column="43" lean-forward="false" selection-start-line="109" selection-start-column="43" selection-end-line="109" selection-end-column="43" />
-          <folding>
-            <element signature="e#3726#4014#0" expanded="true" />
-            <element signature="e#4013#4014#0" expanded="true" />
-            <element signature="e#5239#5240#0" expanded="true" />
-            <element signature="e#5272#5273#0" expanded="true" />
-            <element signature="e#6648#6649#0" expanded="true" />
-            <element signature="e#6705#6706#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboMakeSure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1826">
-          <caret line="82" column="60" lean-forward="false" selection-start-line="82" selection-start-column="60" selection-end-line="82" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2600#3068#0" expanded="true" />
-            <element signature="e#3067#3068#0" expanded="true" />
-            <element signature="e#3109#3549#0" expanded="true" />
-            <element signature="e#3548#3549#0" expanded="true" />
-            <element signature="e#3589#4030#0" expanded="true" />
-            <element signature="e#4029#4030#0" expanded="true" />
-            <element signature="e#4759#4760#0" expanded="true" />
-            <element signature="e#4792#4793#0" expanded="true" />
-            <element signature="e#7407#7408#0" expanded="true" />
-            <element signature="e#7464#7465#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboThinking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-381">
-          <caret line="53" column="33" lean-forward="false" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2332#2333#0" expanded="true" />
-            <element signature="e#2365#2366#0" expanded="true" />
-            <element signature="e#3972#3973#0" expanded="true" />
-            <element signature="e#4029#4030#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1775">
-          <caret line="180" column="35" lean-forward="false" selection-start-line="180" selection-start-column="35" selection-end-line="180" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionThree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="39" column="81" lean-forward="false" selection-start-line="39" selection-start-column="81" selection-end-line="39" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2312">
-          <caret line="263" column="81" lean-forward="false" selection-start-line="263" selection-start-column="81" selection-end-line="263" selection-end-column="81" />
           <folding />
         </state>
       </provider>
@@ -5185,8 +5195,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboDialogSample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="-1146">
+          <caret line="46" column="70" lean-forward="false" selection-start-line="46" selection-start-column="70" selection-end-line="46" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1588">
+          <caret line="200" column="24" lean-forward="false" selection-start-line="200" selection-start-column="24" selection-end-line="200" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionThree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1690">
+          <caret line="218" column="24" lean-forward="false" selection-start-line="218" selection-start-column="24" selection-end-line="218" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboMakeSure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1010">
+          <caret line="127" column="44" lean-forward="false" selection-start-line="127" selection-start-column="44" selection-end-line="127" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboThinking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-789">
+          <caret line="64" column="24" lean-forward="false" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+          <folding>
+            <element signature="e#2113#2114#0" expanded="false" />
+            <element signature="e#2146#2147#0" expanded="false" />
+            <element signature="e#3753#3754#0" expanded="false" />
+            <element signature="e#3810#3811#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-619">
+          <caret line="123" column="24" lean-forward="false" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboQuestionTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-347">
+          <caret line="175" column="0" lean-forward="true" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZenboDialogSample/src/main/java/com/asus/zenbodialogsample/ZenboStartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="118" column="75" lean-forward="false" selection-start-line="118" selection-start-column="75" selection-end-line="118" selection-end-column="75" />
           <folding />
         </state>
       </provider>

@@ -189,28 +189,18 @@ public class ZenboQuestionOne extends RobotActivity {
     protected void onResume() {
         super.onResume();
 
-        // set beginning expression : default
         robotAPI.robot.setExpression(RobotFace.HIDEFACE);
-
-        // jump dialog domain
         robotAPI.robot.jumpToPlan(DOMAIN, "Q1");
-
-        // listen user utterance
         robotAPI.robot.speakAndListen("你覺得你大約多久會做一次投資交易？", new SpeakConfig().timeout(20));
-
-        // show hint
         mTextView.setText("你覺得你大約多久會做一次投資交易？");
-
     }
 
 
     @Override
     protected void onPause() {
         super.onPause();
-
         //stop listen user utterance
         robotAPI.robot.stopSpeakAndListen();
-        //mTextView.setText();
     }
 
 

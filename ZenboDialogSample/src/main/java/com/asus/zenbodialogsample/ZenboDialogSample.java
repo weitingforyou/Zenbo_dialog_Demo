@@ -21,7 +21,6 @@ public class ZenboDialogSample extends RobotActivity {
     public final static String TAG = "ZenboDialogSample";
     public final static String DOMAIN = "2C17093E978140CAB8898BD4BDAB9CF5";
 
-    //private static TextView mTextView;
     private static RobotAPI mRobotAPI;
     private static Intent mIntent;
     private static Context mContext_1;
@@ -46,7 +45,6 @@ public class ZenboDialogSample extends RobotActivity {
 
         robotAPI.robot.setExpression(RobotFace.INTERESTED);
         robotAPI.robot.jumpToPlan(DOMAIN, "ThisPlanLaunchingThisApp");
-
     }
 
 

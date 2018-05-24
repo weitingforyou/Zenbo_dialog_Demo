@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.test.ActivityTestCase;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
@@ -18,8 +17,6 @@ import com.asus.robotframework.API.RobotCallback;
 import com.asus.robotframework.API.RobotCmdState;
 import com.asus.robotframework.API.RobotErrorCode;
 import com.asus.robotframework.API.RobotFace;
-import com.asus.robotframework.API.RobotUtil;
-import com.asus.robotframework.API.SpeakConfig;
 import com.robot.asus.robotactivity.RobotActivity;
 
 import org.json.JSONObject;
@@ -118,28 +115,13 @@ public class ZenboResult extends RobotActivity {
     @Override
     protected void onResume() {
         super.onResume();
-
-        // set beginning expression : default
         robotAPI.robot.setExpression(RobotFace.HIDEFACE);
-        //robotAPI.robot.speak("現在我來想想最適合你的理財方式喔！");
-
-        // jump dialog domain
-        //robotAPI.robot.jumpToPlan(DOMAIN, "beforestart");
-
-        // listen user utterance
-        //robotAPI.robot.speakAndListen("我想為你提出一些理財建議，你願意嗎？", new SpeakConfig().timeout(20));
-
-        // show hint
-        //mTextView.setText("我想為你提出一些理財建議，你願意嗎？");
-
     }
 
 
     @Override
     protected void onPause() {
         super.onPause();
-
-        //stop listen user utterance
         robotAPI.robot.stopSpeakAndListen();
         //mTextView.setText();
     }

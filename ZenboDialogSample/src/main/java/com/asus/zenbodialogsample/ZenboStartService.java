@@ -3,14 +3,12 @@ package com.asus.zenbodialogsample;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.content.IntentFilter;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.asus.robotframework.API.RobotAPI;
@@ -30,7 +28,6 @@ public class ZenboStartService extends RobotActivity {
 
     private static TextView mTextView;
     private static ImageButton bt_accept, bt_reject;
-    //private static ImageView imageView;
 
     private static RobotAPI mRobotAPI;
     private static Intent mIntent;
@@ -47,12 +44,12 @@ public class ZenboStartService extends RobotActivity {
         mTextView = (TextView) findViewById(R.id.textView_question);
         bt_accept = (ImageButton)findViewById(R.id.button_accept);
         bt_reject = (ImageButton)findViewById(R.id.button_reject);
-        //imageView = (ImageView)findViewById(R.id.imageView);
 
         mRobotAPI = robotAPI;
         mIntent = new Intent();
         mContext = this.getApplicationContext();
         mActivity = ZenboStartService.this;
+        final Activity activity = this;
 
 
         bt_accept.setOnClickListener(new Button.OnClickListener(){
@@ -87,16 +84,9 @@ public class ZenboStartService extends RobotActivity {
     protected void onResume() {
         super.onResume();
 
-        // set beginning expression : default
         robotAPI.robot.setExpression(RobotFace.HIDEFACE);
-
-        // jump dialog domain
         robotAPI.robot.jumpToPlan(DOMAIN, "beforestart");
-
-        // listen user utterance
         robotAPI.robot.speakAndListen("我想為你提出一些理財建議，你願意嗎？", new SpeakConfig().timeout(20));
-
-        // show hint
         mTextView.setText("我想為你提出一些理財建議，你願意嗎？");
 
     }
@@ -105,10 +95,8 @@ public class ZenboStartService extends RobotActivity {
     @Override
     protected void onPause() {
         super.onPause();
-
         //stop listen user utterance
         robotAPI.robot.stopSpeakAndListen();
-        //mTextView.setText();
     }
 
 
@@ -182,17 +170,12 @@ public class ZenboStartService extends RobotActivity {
                 Log.d(TAG, "Response =" + sSluResultCity);
 
                 if(sSluResultCity.equals("reject")) {
-                    Log.d(TAG, "你選擇了不好");
-                    mTextView.setText("你選擇了不好");
-
                     mRobotAPI.robot.setExpression(RobotFace.INNOCENT);
                     text = "太可惜了！那你隨時可以再來找我喔！";
                     CommandSerial_reject = mRobotAPI.robot.speak(text);
                     Log.d(TAG, "check :"+ CommandSerial_reject);
                 }
                 else if (sSluResultCity.equals("accept")) {
-                    Log.d(TAG, "你選擇了好");
-
                     mRobotAPI.robot.setExpression(RobotFace.HAPPY);
                     text = "太棒了！那我會請你回答三個問題，讓我更了解你，我們開始吧！";
                     CommandSerial_accept = mRobotAPI.robot.speak(text);

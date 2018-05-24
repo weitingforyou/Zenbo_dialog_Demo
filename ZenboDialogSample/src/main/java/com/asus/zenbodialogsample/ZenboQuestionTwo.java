@@ -34,7 +34,8 @@ public class ZenboQuestionTwo extends RobotActivity {
     private static Intent mIntent, mGetIntent;
     private static Context mContext;
     private static Activity mActivity;
-    private static int  CommandSerial_A, CommandSerial_B, CommandSerial_C, CommandSerial_D, CommandSerial_E, CommandSerial_F;
+    private static int  CommandSerial_A, CommandSerial_B, CommandSerial_C,
+                        CommandSerial_D, CommandSerial_E, CommandSerial_F;
 
     private static Bundle mBundle;
     private static String ans_1 = "5,000以內", ans_2 = "5,000 ~ 10,000", ans_3 = "10,000 ~ 30,000",
@@ -166,18 +167,10 @@ public class ZenboQuestionTwo extends RobotActivity {
     protected void onResume() {
         super.onResume();
 
-        // set beginning expression : default
         robotAPI.robot.setExpression(RobotFace.HIDEFACE);
-
-        // jump dialog domain
         robotAPI.robot.jumpToPlan(DOMAIN, "Q2");
-
-        // listen user utterance
-        robotAPI.robot.speakAndListen("每個月想要投資多少錢？", new SpeakConfig().timeout(20));
-
-        // show hint
-        mTextView.setText("每個月想要投資多少錢？");
-
+        robotAPI.robot.speakAndListen("每次想要投資多少錢？", new SpeakConfig().timeout(20));
+        mTextView.setText("每次想要投資多少錢？");
     }
 
 
@@ -205,6 +198,7 @@ public class ZenboQuestionTwo extends RobotActivity {
         @Override
         public void onStateChange(int cmd, int serial, RobotErrorCode err_code, RobotCmdState state) {
             super.onStateChange(cmd, serial, err_code, state);
+
             if (serial == CommandSerial_A && state != RobotCmdState.ACTIVE){
                 Log.d(TAG, "command: "+ "CommandSerial" + " SUCCEED");
                 mIntent.setClass(mContext, ZenboQuestionThree.class);
@@ -215,6 +209,7 @@ public class ZenboQuestionTwo extends RobotActivity {
                 mIntent.putExtras(mBundle);
                 mContext.startActivity(mIntent);
                 mActivity.finish();
+
             } else if (serial == CommandSerial_B && state != RobotCmdState.ACTIVE){
                 Log.d(TAG, "command: "+ "CommandSerial" + " SUCCEED");
                 mIntent.setClass(mContext, ZenboQuestionThree.class);
@@ -225,6 +220,7 @@ public class ZenboQuestionTwo extends RobotActivity {
                 mIntent.putExtras(mBundle);
                 mContext.startActivity(mIntent);
                 mActivity.finish();
+
             } else if (serial == CommandSerial_C && state != RobotCmdState.ACTIVE){
                 Log.d(TAG, "command: "+ "CommandSerial" + " SUCCEED");
                 mIntent.setClass(mContext, ZenboQuestionThree.class);
@@ -235,6 +231,7 @@ public class ZenboQuestionTwo extends RobotActivity {
                 mIntent.putExtras(mBundle);
                 mContext.startActivity(mIntent);
                 mActivity.finish();
+
             } else if (serial == CommandSerial_D && state != RobotCmdState.ACTIVE){
                 Log.d(TAG, "command: "+ "CommandSerial" + " SUCCEED");
                 mIntent.setClass(mContext, ZenboQuestionThree.class);
@@ -245,6 +242,7 @@ public class ZenboQuestionTwo extends RobotActivity {
                 mIntent.putExtras(mBundle);
                 mContext.startActivity(mIntent);
                 mActivity.finish();
+
             } else if (serial == CommandSerial_E && state != RobotCmdState.ACTIVE){
                 Log.d(TAG, "command: "+ "CommandSerial" + " SUCCEED");
                 mIntent.setClass(mContext, ZenboQuestionThree.class);
@@ -255,6 +253,7 @@ public class ZenboQuestionTwo extends RobotActivity {
                 mIntent.putExtras(mBundle);
                 mContext.startActivity(mIntent);
                 mActivity.finish();
+
             } else if (serial == CommandSerial_F && state != RobotCmdState.ACTIVE){
                 Log.d(TAG, "command: "+ "CommandSerial" + " SUCCEED");
                 mIntent.setClass(mContext, ZenboQuestionThree.class);

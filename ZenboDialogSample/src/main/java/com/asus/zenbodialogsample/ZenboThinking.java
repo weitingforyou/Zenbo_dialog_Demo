@@ -27,18 +27,13 @@ public class ZenboThinking extends RobotActivity {
     public final static String TAG = "ZenboMakeSure";
     public final static String DOMAIN = "2C17093E978140CAB8898BD4BDAB9CF5";
 
-    private static TextView mTextView, mAns_1, mAns_2, mAns_3;
-    private static ImageButton bt_accept, bt_reject, bt_leave;
-
     private static RobotAPI mRobotAPI;
     private static Intent mIntent, mGetIntent;
     private static Context mContext;
     private static Activity mActivity;
-    private static int CommandSerial_accept, CommandSerial_thinking;
+    private static int CommandSerial_thinking;
 
     private static Bundle mBundle;
-
-    private String ans1, ans2, ans3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,10 +63,8 @@ public class ZenboThinking extends RobotActivity {
     @Override
     protected void onPause() {
         super.onPause();
-
         //stop listen user utterance
         robotAPI.robot.stopSpeakAndListen();
-        //mTextView.setText();
     }
 
 

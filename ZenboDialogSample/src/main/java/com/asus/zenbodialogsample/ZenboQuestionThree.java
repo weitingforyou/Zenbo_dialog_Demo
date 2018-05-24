@@ -207,28 +207,18 @@ public class ZenboQuestionThree extends RobotActivity {
     protected void onResume() {
         super.onResume();
 
-        // set beginning expression : default
         robotAPI.robot.setExpression(RobotFace.HIDEFACE);
-
-        // jump dialog domain
         robotAPI.robot.jumpToPlan(DOMAIN, "Q3");
-
-        // listen user utterance
         robotAPI.robot.speakAndListen("你覺得你大約虧損多少時會想要停止投資？ ", new SpeakConfig().timeout(20));
-
-        // show hint
         mTextView.setText("你覺得你大約虧損多少時會想要停止投資？ ");
-
     }
 
 
     @Override
     protected void onPause() {
         super.onPause();
-
         //stop listen user utterance
         robotAPI.robot.stopSpeakAndListen();
-        //mTextView.setText();
     }
 
 

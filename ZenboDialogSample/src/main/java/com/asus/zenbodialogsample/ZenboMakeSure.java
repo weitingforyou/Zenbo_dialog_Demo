@@ -26,14 +26,14 @@ public class ZenboMakeSure extends RobotActivity {
     public final static String TAG = "ZenboMakeSure";
     public final static String DOMAIN = "2C17093E978140CAB8898BD4BDAB9CF5";
 
-    private static TextView mTextView, mAns_1, mAns_2, mAns_3;
+    private static TextView mAns_1, mAns_2, mAns_3;
     private static ImageButton bt_accept, bt_reject, bt_leave;
 
     private static RobotAPI mRobotAPI;
     private static Intent mIntent, mGetIntent;
     private static Context mContext;
     private static Activity mActivity;
-    private static int CommandSerial_accept, CommandSerial_thinking;
+    private static int CommandSerial_accept;
 
     private static Bundle mBundle;
 
@@ -115,28 +115,17 @@ public class ZenboMakeSure extends RobotActivity {
     protected void onResume() {
         super.onResume();
 
-        // set beginning expression : default
         robotAPI.robot.setExpression(RobotFace.HIDEFACE);
-
-        // jump dialog domain
         robotAPI.robot.jumpToPlan(DOMAIN, "checkquestion");
-
-        // listen user utterance
         robotAPI.robot.speakAndListen("好的，能不能幫我確認剛才三題的回答是不是正確呢？", new SpeakConfig().timeout(20));
-
-        // show hint
-        //mTextView.setText("我想為你提出一些理財建議，你願意嗎？");
-
     }
 
 
     @Override
     protected void onPause() {
         super.onPause();
-
         //stop listen user utterance
         robotAPI.robot.stopSpeakAndListen();
-        //mTextView.setText();
     }
 
 
