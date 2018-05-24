@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#050505">
+
+
+    <TextView
+        android:id="@+id/textView_welcome"
+        android:layout_width="1124dp"
+        android:layout_height="51dp"
+        android:layout_y="23dp"
+        android:layout_x="78dp"
+        android:gravity="center"
+        android:text="你好，我是Juicy"
+        android:textColor="#ffffff"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/textView_question"
+        android:layout_width="770dp"
+        android:layout_height="94dp"
+        android:layout_y="390dp"
+        android:layout_x="255dp"
+        android:gravity="center"
+        android:text="哎呀！可能是位置或光線不好，Juicy看不見你，\n但我想為你提出一些理財建議，你願意嗎？"
+        android:textColor="#ffc51d"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="312.5dp"
+        android:layout_height="39.5dp"
+        android:layout_y="649dp"
+        android:layout_x="93.5dp"
+        android:text="我不想"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="312.5dp"
+        android:layout_height="39.5dp"
+        android:layout_y="649dp"
+        android:layout_x="483.5dp"
+        android:text="5秒後再拍一次"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
+        android:textSize="32sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="212dp"
+        android:layout_height="182dp"
+        android:layout_x="562dp"
+        android:layout_y="167dp"
+        android:src="@drawable/illustration" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="312.5dp"
+        android:layout_height="39.5dp"
+        android:layout_y="649dp"
+        android:layout_x="873.5dp"
+        android:text="好，開始吧"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
+        android:textSize="32sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton_reject"
+        android:layout_width="380dp"
+        android:layout_height="73dp"
+        android:layout_x="60dp"
+        android:layout_y="632dp"
+        android:gravity="center_horizontal"
+        android:background="#00000000"
+        android:src="@drawable/btn_760_px_border_white" />
+
+    <ImageButton
+        android:id="@+id/imageButton_again"
+        android:layout_width="380dp"
+        android:layout_height="73dp"
+        android:layout_x="450dp"
+        android:layout_y="632dp"
+        android:gravity="center_horizontal"
+        android:background="#00000000"
+        android:src="@drawable/btn_760_px_color_blue" />
+
+    <ImageButton
+        android:id="@+id/imageButton_accept"
+        android:layout_width="380dp"
+        android:layout_height="73dp"
+        android:layout_x="840dp"
+        android:layout_y="632dp"
+        android:gravity="center_horizontal"
+        android:background="#00000000"
+        android:src="@drawable/btn_760_px_color_yellow" />
+</AbsoluteLayout>

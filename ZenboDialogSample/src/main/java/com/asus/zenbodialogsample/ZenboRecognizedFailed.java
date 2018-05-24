@@ -22,12 +22,12 @@ import com.robot.asus.robotactivity.RobotActivity;
 
 import org.json.JSONObject;
 
-public class ZenboStartService extends RobotActivity {
+public class ZenboRecognizedFailed extends RobotActivity {
     public final static String TAG = "ZenboStartService";
     public final static String DOMAIN = "2C17093E978140CAB8898BD4BDAB9CF5";
 
     private static TextView mTextView;
-    private static ImageButton bt_accept, bt_reject;
+    private static ImageButton bt_accept, bt_reject, bt_again;
 
     private static RobotAPI mRobotAPI;
     private static Intent mIntent;
@@ -42,13 +42,14 @@ public class ZenboStartService extends RobotActivity {
         setContentView(R.layout.activity_zenbo_start_service);
 
         mTextView = (TextView) findViewById(R.id.textView_question);
-        bt_accept = (ImageButton)findViewById(R.id.button_accept);
-        bt_reject = (ImageButton)findViewById(R.id.button_reject);
+        bt_accept = (ImageButton)findViewById(R.id.imageButton_accept);
+        bt_reject = (ImageButton)findViewById(R.id.imageButton_reject);
+        bt_again = (ImageButton)findViewById(R.id.imageButton_again);
 
         mRobotAPI = robotAPI;
         mIntent = new Intent();
         mContext = this.getApplicationContext();
-        mActivity = ZenboStartService.this;
+        mActivity = ZenboRecognizedFailed.this;
 
 
         bt_accept.setOnClickListener(new Button.OnClickListener(){
@@ -189,7 +190,7 @@ public class ZenboStartService extends RobotActivity {
         public void onRetry(JSONObject jsonObject) {}
     };
 
-    public ZenboStartService() {
+    public ZenboRecognizedFailed() {
         super(robotCallback, robotListenCallback);
     }
 }
