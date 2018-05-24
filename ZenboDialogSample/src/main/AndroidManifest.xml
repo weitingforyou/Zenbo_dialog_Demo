@@ -28,6 +28,7 @@
         <activity android:name=".ZenboQuestionTwo" />
         <activity android:name=".ZenboQuestionThree" />
         <activity android:name=".ZenboMakeSure" />
+        <activity android:name=".ZenboThinking" />
         <activity android:name=".ZenboResult" />
 
     </application>

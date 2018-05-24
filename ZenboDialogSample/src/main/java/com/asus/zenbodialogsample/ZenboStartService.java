@@ -129,8 +129,7 @@ public class ZenboStartService extends RobotActivity {
 
             if (serial == CommandSerial_reject && state != RobotCmdState.ACTIVE){
                 Log.d(TAG, "command: "+ CommandSerial_reject + " SUCCEED");
-                mActivity.finish();
-                System.exit(0);
+                //System.exit(0);
             }
 
             if (serial == CommandSerial_accept && state != RobotCmdState.ACTIVE){
@@ -138,6 +137,7 @@ public class ZenboStartService extends RobotActivity {
                 mIntent.setClass(mContext, ZenboQuestionOne.class);
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 mContext.startActivity(mIntent);
+                mActivity.finish();
             }
         }
     };

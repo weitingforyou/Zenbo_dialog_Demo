@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.test.ActivityTestCase;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
@@ -82,12 +81,6 @@ public class ZenboMakeSure extends RobotActivity {
                 String text = "太好了！謝謝你回答完我的問題！";
                 CommandSerial_accept = mRobotAPI.robot.speak(text);
                 Log.d(TAG, "check :"+ CommandSerial_accept);
-                /*
-                mIntent.setClass(mContext, ZenboResult.class);
-                mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                mContext.startActivity(mIntent);
-                mActivity.finish();
-                */
             }
         });
 
@@ -162,15 +155,7 @@ public class ZenboMakeSure extends RobotActivity {
         public void onStateChange(int cmd, int serial, RobotErrorCode err_code, RobotCmdState state) {
             super.onStateChange(cmd, serial, err_code, state);
             if (serial == CommandSerial_accept && state != RobotCmdState.ACTIVE){
-                Log.d(TAG, "command: "+ CommandSerial_accept + " SUCCEED");
-
-                mRobotAPI.robot.setExpression(RobotFace.CONFIDENT);
-                String text = "現在我來想想最適合你的理財方式喔！";
-                CommandSerial_thinking = mRobotAPI.robot.speak(text);
-                Log.d(TAG, "check :"+ CommandSerial_thinking);
-            }
-            if(serial == CommandSerial_thinking && state != RobotCmdState.ACTIVE){
-                mIntent.setClass(mContext, ZenboResult.class);
+                mIntent.setClass(mContext, ZenboThinking.class);
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_score", 0));
                 mBundle.putInt("Q3_score",mGetIntent.getExtras().getInt("Q3_score", 0));

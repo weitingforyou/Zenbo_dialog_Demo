@@ -178,8 +178,9 @@ public class ZenboQuestionOne extends RobotActivity {
 
                 mIntent.setClass(mContext, ZenboStartService.class);
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                mContext.startActivity(mIntent);
                 mActivity.finish();
+                mContext.startActivity(mIntent);
+
             }
         });
     }

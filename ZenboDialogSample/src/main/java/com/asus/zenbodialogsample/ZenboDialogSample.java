@@ -44,17 +44,8 @@ public class ZenboDialogSample extends RobotActivity {
     protected void onResume() {
         super.onResume();
 
-        // set beginning expression : default
         robotAPI.robot.setExpression(RobotFace.INTERESTED);
-
-        // jump dialog domain
         robotAPI.robot.jumpToPlan(DOMAIN, "ThisPlanLaunchingThisApp");
-
-        // listen user utterance
-        //robotAPI.robot.speakAndListen("你好，我是理財助理Juicy！請站在我的前方並看著我的眼睛，讓我認識你。", new SpeakConfig().timeout(20));
-
-        // show hint
-        //mTextView.setText(getResources().getString(R.string.dialog_example));
 
     }
 
@@ -128,7 +119,7 @@ public class ZenboDialogSample extends RobotActivity {
             Log.d(TAG, "Intention Id = " + sIntentionID);
 
             if(sIntentionID.equals("ThisPlanLaunchingThisApp")){
-                text = "你好，我是理財助理Juicy！ 我想要認識你，請站在我的前方並看著我，我五秒後會幫你拍張照喔。";
+                text = "你好，我是理財助理Juicy！ 我想要認識你，請站在我的前方並看著我，我會幫你拍張照喔。";
                 iCurrentCommandSerial = mRobotAPI.robot.speak(text);
                 Log.d(TAG, "check :"+ iCurrentCommandSerial);
             }

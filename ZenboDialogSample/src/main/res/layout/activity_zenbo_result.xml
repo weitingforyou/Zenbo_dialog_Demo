@@ -67,7 +67,7 @@
         android:gravity="center_horizontal"
         android:layout_x="111dp"
         android:layout_y="649dp"
-        tools:text="我要再測一次"  />
+        android:text="我要再測一次"  />
 
     <TextView
         android:id="@+id/textView17"
@@ -78,7 +78,7 @@
         android:gravity="center_horizontal"
         android:layout_x="696dp"
         android:layout_y="649dp"
-        tools:text="謝謝，我知道了" />
+        android:text="謝謝，我知道了" />
 
     <TextView
         android:id="@+id/textView_recommand"

@@ -56,7 +56,7 @@
         android:gravity="center"
         android:textColor="#ffffff"
         android:textSize="32sp"
-        tools:text="好，開始吧"
+        android:text="好，開始吧"
         android:clipChildren="false" />
 
     <ImageButton
@@ -80,7 +80,7 @@
         android:gravity="center"
         android:textColor="#ffffff"
         android:textSize="32sp"
-        tools:text="我不想" />
+        android:text="我不想" />
 
 
 </AbsoluteLayout>

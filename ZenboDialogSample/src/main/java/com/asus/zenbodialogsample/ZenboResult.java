@@ -59,10 +59,10 @@ public class ZenboResult extends RobotActivity {
 
         score = q1_score * q3_score;
 
-        bt_accept = (ImageButton)findViewById(R.id.button_accept);
+        bt_accept = (ImageButton)findViewById(R.id.imageButton_accept);
         bt_again = (ImageButton)findViewById(R.id.imageButton_again);
 
-        //mRobotAPI = robotAPI;
+        mRobotAPI = robotAPI;
         mIntent = new Intent();
         mContext = this.getApplicationContext();
         mActivity = new Activity();
@@ -107,7 +107,7 @@ public class ZenboResult extends RobotActivity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 robotAPI.robot.setExpression(RobotFace.ACTIVE);
-                String text = "謝謝你！歡迎再來找我玩喔！";
+                String text = "好的！我為你再分析一次！";
                 CommandSerial_again = mRobotAPI.robot.speak(text);
                 Log.d(TAG, "check :" + CommandSerial_again);
             }
@@ -120,7 +120,7 @@ public class ZenboResult extends RobotActivity {
         super.onResume();
 
         // set beginning expression : default
-        //robotAPI.robot.setExpression(RobotFace.CONFIDENT);
+        robotAPI.robot.setExpression(RobotFace.HIDEFACE);
         //robotAPI.robot.speak("現在我來想想最適合你的理財方式喔！");
 
         // jump dialog domain

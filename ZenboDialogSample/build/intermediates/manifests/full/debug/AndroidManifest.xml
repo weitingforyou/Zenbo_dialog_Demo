@@ -36,6 +36,7 @@
         <activity android:name="com.asus.zenbodialogsample.ZenboQuestionTwo" />
         <activity android:name="com.asus.zenbodialogsample.ZenboQuestionThree" />
         <activity android:name="com.asus.zenbodialogsample.ZenboMakeSure" />
+        <activity android:name="com.asus.zenbodialogsample.ZenboThinking" />
         <activity android:name="com.asus.zenbodialogsample.ZenboResult" />
     </application>
 
