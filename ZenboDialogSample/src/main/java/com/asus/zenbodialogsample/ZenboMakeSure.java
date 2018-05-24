@@ -82,14 +82,12 @@ public class ZenboMakeSure extends RobotActivity {
                 String text = "太好了！謝謝你回答完我的問題！";
                 CommandSerial_accept = mRobotAPI.robot.speak(text);
                 Log.d(TAG, "check :"+ CommandSerial_accept);
-
+                /*
                 mIntent.setClass(mContext, ZenboResult.class);
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_ans", 0));
-                mBundle.putInt("Q3_score",mGetIntent.getExtras().getInt("Q3_ans", 0));
-                mIntent.putExtras(mBundle);
                 mContext.startActivity(mIntent);
                 mActivity.finish();
+                */
             }
         });
 
@@ -174,6 +172,9 @@ public class ZenboMakeSure extends RobotActivity {
             if(serial == CommandSerial_thinking && state != RobotCmdState.ACTIVE){
                 mIntent.setClass(mContext, ZenboResult.class);
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_score", 0));
+                mBundle.putInt("Q3_score",mGetIntent.getExtras().getInt("Q3_score", 0));
+                mIntent.putExtras(mBundle);
                 mContext.startActivity(mIntent);
                 mActivity.finish();
             }

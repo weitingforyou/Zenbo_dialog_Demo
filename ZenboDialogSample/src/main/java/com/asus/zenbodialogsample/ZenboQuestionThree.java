@@ -87,7 +87,7 @@ public class ZenboQuestionThree extends RobotActivity {
                 mBundle.putInt("Q3_score", 1);
                 mBundle.putString("Q1_ans",mGetIntent.getExtras().getString("Q1_ans", "0"));
                 mBundle.putString("Q2_ans",mGetIntent.getExtras().getString("Q2_ans", "0"));
-                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_ans", 0));
+                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_score", 0));
                 mIntent.putExtras(mBundle);
                 mContext.startActivity(mIntent);
                 mActivity.finish();
@@ -106,7 +106,7 @@ public class ZenboQuestionThree extends RobotActivity {
                 mBundle.putInt("Q3_score", 3);
                 mBundle.putString("Q1_ans",mGetIntent.getExtras().getString("Q1_ans", "0"));
                 mBundle.putString("Q2_ans",mGetIntent.getExtras().getString("Q2_ans", "0"));
-                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_ans", 0));
+                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_score", 0));
                 mIntent.putExtras(mBundle);
                 mContext.startActivity(mIntent);
                 mActivity.finish();
@@ -125,7 +125,7 @@ public class ZenboQuestionThree extends RobotActivity {
                 mBundle.putInt("Q3_score", 5);
                 mBundle.putString("Q1_ans",mGetIntent.getExtras().getString("Q1_ans", "0"));
                 mBundle.putString("Q2_ans",mGetIntent.getExtras().getString("Q2_ans", "0"));
-                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_ans", 0));
+                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_score", 0));
                 mIntent.putExtras(mBundle);
                 mContext.startActivity(mIntent);
                 mActivity.finish();
@@ -144,7 +144,7 @@ public class ZenboQuestionThree extends RobotActivity {
                 mBundle.putInt("Q3_score", 7);
                 mBundle.putString("Q1_ans",mGetIntent.getExtras().getString("Q1_ans", "0"));
                 mBundle.putString("Q2_ans",mGetIntent.getExtras().getString("Q2_ans", "0"));
-                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_ans", 0));
+                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_score", 0));
                 mIntent.putExtras(mBundle);
                 mContext.startActivity(mIntent);
                 mActivity.finish();
@@ -163,7 +163,7 @@ public class ZenboQuestionThree extends RobotActivity {
                 mBundle.putInt("Q3_score", 9);
                 mBundle.putString("Q1_ans",mGetIntent.getExtras().getString("Q1_ans", "0"));
                 mBundle.putString("Q2_ans",mGetIntent.getExtras().getString("Q2_ans", "0"));
-                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_ans", 0));
+                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_score", 0));
                 mIntent.putExtras(mBundle);
                 mContext.startActivity(mIntent);
                 mActivity.finish();
@@ -182,7 +182,7 @@ public class ZenboQuestionThree extends RobotActivity {
                 mBundle.putInt("Q3_score", 12);
                 mBundle.putString("Q1_ans",mGetIntent.getExtras().getString("Q1_ans", "0"));
                 mBundle.putString("Q2_ans",mGetIntent.getExtras().getString("Q2_ans", "0"));
-                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_ans", 0));
+                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_score", 0));
                 mIntent.putExtras(mBundle);
                 mContext.startActivity(mIntent);
                 mActivity.finish();
@@ -327,9 +327,10 @@ public class ZenboQuestionThree extends RobotActivity {
                 mIntent.setClass(mContext, ZenboMakeSure.class);
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 mBundle.putString("Q3_ans", ans);
+                mBundle.putInt("Q3_score", score);
                 mBundle.putString("Q1_ans",mGetIntent.getExtras().getString("Q1_ans", "0"));
                 mBundle.putString("Q2_ans",mGetIntent.getExtras().getString("Q2_ans", "0"));
-                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_ans", 0));
+                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_score", 0));
                 mIntent.putExtras(mBundle);
                 mContext.startActivity(mIntent);
                 mActivity.finish();

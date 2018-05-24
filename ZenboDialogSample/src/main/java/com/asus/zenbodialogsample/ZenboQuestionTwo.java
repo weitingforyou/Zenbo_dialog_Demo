@@ -211,7 +211,7 @@ public class ZenboQuestionTwo extends RobotActivity {
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 mBundle.putString("Q2_ans", ans_1);
                 mBundle.putString("Q1_ans",mGetIntent.getExtras().getString("Q1_ans", "0"));
-                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_ans", 0));
+                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_score", 0));
                 mIntent.putExtras(mBundle);
                 mContext.startActivity(mIntent);
                 mActivity.finish();
@@ -221,7 +221,7 @@ public class ZenboQuestionTwo extends RobotActivity {
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 mBundle.putString("Q2_ans", ans_2);
                 mBundle.putString("Q1_ans",mGetIntent.getExtras().getString("Q1_ans", "0"));
-                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_ans", 0));
+                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_score", 0));
                 mIntent.putExtras(mBundle);
                 mContext.startActivity(mIntent);
                 mActivity.finish();
@@ -231,7 +231,7 @@ public class ZenboQuestionTwo extends RobotActivity {
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 mBundle.putString("Q2_ans", ans_3);
                 mBundle.putString("Q1_ans",mGetIntent.getExtras().getString("Q1_ans", "0"));
-                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_ans", 0));
+                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_score", 0));
                 mIntent.putExtras(mBundle);
                 mContext.startActivity(mIntent);
                 mActivity.finish();
@@ -241,7 +241,7 @@ public class ZenboQuestionTwo extends RobotActivity {
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 mBundle.putString("Q2_ans", ans_4);
                 mBundle.putString("Q1_ans",mGetIntent.getExtras().getString("Q1_ans", "0"));
-                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_ans", 0));
+                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_score", 0));
                 mIntent.putExtras(mBundle);
                 mContext.startActivity(mIntent);
                 mActivity.finish();
@@ -251,7 +251,7 @@ public class ZenboQuestionTwo extends RobotActivity {
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 mBundle.putString("Q2_ans", ans_5);
                 mBundle.putString("Q1_ans",mGetIntent.getExtras().getString("Q1_ans", "0"));
-                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_ans", 0));
+                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_score", 0));
                 mIntent.putExtras(mBundle);
                 mContext.startActivity(mIntent);
                 mActivity.finish();
@@ -261,7 +261,7 @@ public class ZenboQuestionTwo extends RobotActivity {
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 mBundle.putString("Q2_ans", ans_6);
                 mBundle.putString("Q1_ans",mGetIntent.getExtras().getString("Q1_ans", "0"));
-                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_ans", 0));
+                mBundle.putInt("Q1_score",mGetIntent.getExtras().getInt("Q1_score", 0));
                 mIntent.putExtras(mBundle);
                 mContext.startActivity(mIntent);
                 mActivity.finish();
