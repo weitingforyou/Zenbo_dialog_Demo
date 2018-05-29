@@ -6,31 +6,28 @@
     density="mdpi"
     format="10"
     plugin-version="3.1.2"
-    timestamp="1527149541399"
+    timestamp="1527346173060"
     token="-5231801856164661780"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="947" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="27" />
+        duration="0" />
     <task
         name="verifier"
-        duration="16" />
+        duration="0" />
 
     <artifact
-        location="D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        location="D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
     <artifact
-        location="D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\build\intermediates\instant-run-apk\debug\ZenboDialogSample-debug.apk"
-        type="SPLIT_MAIN" />
-    <artifact
-        location="D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        location="D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
     <artifact
         location="D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\build\intermediates\split-apk\debug\slices\slice_8.apk"
@@ -59,19 +56,19 @@
     <artifact
         location="D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
+    <artifact
+        location="D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\build\intermediates\instant-run-apk\debug\ZenboDialogSample-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1527149541399"
+        timestamp="1527346173060"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\build\intermediates\instant-run-apk\debug\ZenboDialogSample-debug.apk"
-            type="SPLIT_MAIN" />
-        <artifact
-            location="D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
             location="D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\build\intermediates\split-apk\debug\slices\slice_8.apk"
@@ -100,6 +97,9 @@
         <artifact
             location="D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
+        <artifact
+            location="D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\build\intermediates\instant-run-apk\debug\ZenboDialogSample-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

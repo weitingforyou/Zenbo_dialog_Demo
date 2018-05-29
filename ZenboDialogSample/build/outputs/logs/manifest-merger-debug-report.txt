@@ -1,33 +1,33 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:2:1-36:12
+ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:2:1-37:12
 MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\weiting\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\005061a7dfd4e25f08105bbd768e001e\AndroidManifest.xml:17:1-27:12
 MERGED from [:RobotActivityLibrary] D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\RobotActivityLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\weiting\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\bd16d6ca7e89c0c30c0eedfca0cc1de9\AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\weiting\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\b07ff4f34b084c6322e915e7398cfeca\AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.support:support-v4:23.4.0] C:\Users\weiting\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\b0894ceaff078939aeb6b78420d7ed12\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:2:1-37:12
 	package
 		ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml
 		INJECTED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml
-		ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:2:1-36:12
+		ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:2:1-37:12
 		INJECTED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml
-		ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:2:1-36:12
+		ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:2:1-37:12
 		INJECTED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:5:5-34:19
+ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:5:5-35:19
 MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\weiting\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\005061a7dfd4e25f08105bbd768e001e\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\weiting\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\005061a7dfd4e25f08105bbd768e001e\AndroidManifest.xml:25:5-20
 MERGED from [:RobotActivityLibrary] D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\RobotActivityLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
@@ -82,30 +82,34 @@ activity#com.asus.zenbodialogsample.ZenboStartService
 ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:26:9-55
 	android:name
 		ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:26:19-52
-activity#com.asus.zenbodialogsample.ZenboQuestionOne
-ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:27:9-54
+activity#com.asus.zenbodialogsample.ZenboRecognizedFailed
+ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:27:9-59
 	android:name
-		ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:27:19-51
-activity#com.asus.zenbodialogsample.ZenboQuestionTwo
+		ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:27:19-56
+activity#com.asus.zenbodialogsample.ZenboQuestionOne
 ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:28:9-54
 	android:name
 		ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:28:19-51
+activity#com.asus.zenbodialogsample.ZenboQuestionTwo
+ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:29:9-54
+	android:name
+		ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:29:19-51
 activity#com.asus.zenbodialogsample.ZenboQuestionThree
-ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:29:9-56
+ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:30:9-56
 	android:name
-		ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:29:19-53
+		ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:30:19-53
 activity#com.asus.zenbodialogsample.ZenboMakeSure
-ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:30:9-51
-	android:name
-		ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:30:19-48
-activity#com.asus.zenbodialogsample.ZenboThinking
 ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:31:9-51
 	android:name
 		ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:31:19-48
-activity#com.asus.zenbodialogsample.ZenboResult
-ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:32:9-49
+activity#com.asus.zenbodialogsample.ZenboThinking
+ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:32:9-51
 	android:name
-		ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:32:19-46
+		ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:32:19-48
+activity#com.asus.zenbodialogsample.ZenboResult
+ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:33:9-49
+	android:name
+		ADDED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml:33:19-46
 uses-sdk
 INJECTED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\NCCU 106-2\Meeting\Zenbo\Zenbo_dialog\ZenboSDK_and_SampleCode_v1.0.67.1808\ZenboDialogSample\src\main\AndroidManifest.xml

@@ -78,6 +78,14 @@ public class ZenboRecognizedFailed extends RobotActivity {
                 Log.d(TAG, "check :"+ CommandSerial_reject);
             }
         });
+
+        bt_reject.setOnClickListener(new Button.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+
+            }
+        });
     }
 
     @Override
